@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,9 +19,16 @@
 
 <body>
     <header>
-        <nav>
+        <div class="header-container-mobile">
+            <img src="images/logo/ohmyfood.png" alt="ohmyfood">
+            <i class="fas fa-map-marker-alt">Paris, Belleville</i>
+            <p><b>Book the menu you like</b></p>
+            <p>Discover top-of-the-art restaurants<br>restaurants we picked for you</p>
+            <button>Explore our restaurants</button>
+        </div>
+        <nav class="nav-container-desktop">
             <ul>
-                <li><a href="#"><img class="logo" src="images/logo/ohmyfood.png/" alt="ohmygodlogo"></a></li>
+                <li><a href="#"><img class="logo" src="images/logo/ohmyfood.png/" alt="ohmyfoodlogo"></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Resturants</a></li>
                 <li><a href="#">Sign Up</a></li>
@@ -29,6 +36,30 @@
         </nav>
     </header>
     <main>
+        <div class="main-container-mobile">
+            <ul>
+                <a href="">
+                    <li>
+                        <p>1</p>
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Choose a Restaurant</p>
+                    </li></a>
+                <a href="">
+                    <li>
+                        <p>2</p>
+                        <i class="fas fa-bars"></i>
+                        <p>Create your menu</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <p>3</p>
+                        <i class="fas fa-store"></i>
+                        <p>Go enjoy iy at the restaurant</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
         <div class="logo-container">
             <img src="images/logo/ohmyfood.png/" alt="ohmygodlogo">
         </div>
@@ -63,7 +94,20 @@
     </section>
     <footer>
         <div class="footerinfo-container">
-
+            <div class="column about-column">
+                <ul>
+                    <li><b>About</b></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Locations</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><b>Contact Us</b></li>
+                    <li><a href="#">We want to know!</a></li>
+                    <li><a href="#">Questions</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
