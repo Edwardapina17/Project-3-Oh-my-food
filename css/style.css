@@ -15,12 +15,30 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-header-logo-container {
-  color: red;
+header img {
+  background-color: white;
+  height: 35px;
+  width: 170px;
+  padding: 10px;
 }
 
-header-logo-container img {
-  width: 90px;
-  height: 90px;
+header header-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header header-icon-container i {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

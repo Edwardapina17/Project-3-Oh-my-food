@@ -3,13 +3,22 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    // background-color: blue;
+    img {
+        background-color: white;
+        height: 35px;
+        width: 170px;
+        padding: 10px;
     }
+    header-icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-header-logo-container {
-        color: red;
-        img {
-            width: 90px;
-            height: 90px;
+        i {
+            color: red;
         }
-    }  
+    }
+}
