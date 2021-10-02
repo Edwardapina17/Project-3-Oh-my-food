@@ -5,20 +5,60 @@ header {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     // background-color: blue;
+    .header-logo-container{
     img {
         background-color: white;
         height: 35px;
         width: 170px;
         padding: 10px;
+        }
     }
-    header-icon-container {
+
+    .header-icon-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        background-color: #dbdada;
+        width: 414px;
+        height: 55px;
+        box-shadow: 5px 10px #888888;
+        p {
+            margin: 10px;
+        }
+    }
 
-        i {
-            color: red;
+    .header-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 414px;
+        height: 232px;
+        padding-top: 18px;
+        padding-bottom: 53px;
+        background-color: rgb(241, 241, 241);
+        h2 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 350;
+        }
+
+        button {
+            margin-top: 22px;
+            // padding: 10px 10px 10px 10px;
+            border-radius: 50px;
+            width: 236px;
+            height: 81px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            color: white;
+            background-image: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
         }
     }
 }
