@@ -92,7 +92,38 @@ header .header-info-container button {
   background-image: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
 }
 
-.main-container-mobile ul {
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+main .main-container-mobile h2 {
+  margin-left: 10px;
+  padding-top: 25px;
+}
+
+main .main-container-mobile ul {
   list-style-type: none;
+  padding: 12px;
+}
+
+main .main-container-mobile li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 92%;
+  height: 70px;
+  border-radius: 20px;
+  margin-top: 22px;
+  background-color: #f1f1f1;
 }
 /*# sourceMappingURL=style.css.map */

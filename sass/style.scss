@@ -66,8 +66,30 @@ header {
     }
 }
 
-.main-container-mobile {
-    ul {
-        list-style-type: none;  
+main {
+    font-family: 'Roboto', sans-serif;
+
+    .main-container-mobile {
+        h2 {
+            margin-left: 10px;
+            padding-top: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 12px;  
+        }
+
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 92%;
+            height: 70px;
+            border-radius: 20px;
+            margin-top: 22px;
+            background-color: rgb(241, 241, 241);
+        }
     }
 }
