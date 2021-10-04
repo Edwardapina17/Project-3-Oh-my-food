@@ -70,6 +70,7 @@ main {
     font-family: 'Roboto', sans-serif;
 
     .main-container-mobile {
+
         h2 {
             margin-left: 10px;
             padding-top: 25px;
@@ -83,13 +84,38 @@ main {
         li {
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
-            width: 92%;
+            width: 366px;
             height: 70px;
             border-radius: 20px;
             margin-top: 22px;
+            box-shadow: 0 9px 34px -23px #545454;
+            font-weight: bold;
             background-color: rgb(241, 241, 241);
+        }
+
+        li:nth-child(1) {
+            margin-top: 0px;
+        }
+
+        .li-p-container {
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: rgba(147,86,220,1);
+            margin-right: 20px;
+        }
+
+        p:nth-child(1) {
+            margin: 3px 0px 0px 7px;
+            color: white;
+        }
+
+        i {
+            font-size: 17px;
+            color: grey;
+            margin-right: 25px
         }
     }
 }
