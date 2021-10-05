@@ -78,7 +78,8 @@ main {
 
         ul {
             list-style-type: none;
-            padding: 12px;  
+            padding: 12px;
+            margin-bottom: 60px;
         }
 
         li {
@@ -118,4 +119,7 @@ main {
             margin-right: 25px
         }
     }
-}
+
+    .section-resturants-container {
+        background-color: #f1f1f1;
+    }

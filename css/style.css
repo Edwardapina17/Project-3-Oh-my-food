@@ -104,6 +104,7 @@ main .main-container-mobile h2 {
 main .main-container-mobile ul {
   list-style-type: none;
   padding: 12px;
+  margin-bottom: 60px;
 }
 
 main .main-container-mobile li {
@@ -151,5 +152,13 @@ main .main-container-mobile i {
   font-size: 17px;
   color: grey;
   margin-right: 25px;
+}
+
+main .section-resturants-container {
+  background-color: #f1f1f1;
+}
+
+main .section-resturants-container h2:nth-child(1) {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
