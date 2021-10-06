@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,11 +158,77 @@ main .main-container-mobile i {
   margin-right: 25px;
 }
 
-main .section-resturants-container {
+.section-resturants-container {
   background-color: #f1f1f1;
 }
 
-main .section-resturants-container h2:nth-child(1) {
-  margin-top: 20px;
+footer {
+  width: 412px;
+  height: 220px;
+  background-color: #242424;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
+}
+
+footer ul {
+  list-style-type: none;
+  color: white;
+}
+
+footer ul li:nth-child(1) {
+  font-family: 'Shrikhand', cursive;
+}
+
+footer ul li:nth-child(1) p {
+  padding-top: 26px;
+  font-size: 18px;
+}
+
+footer ul li:nth-child(2) i {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+footer ul li:nth-child(2) p {
+  margin-top: 0px;
+  padding-left: 13px;
+}
+
+footer ul li:nth-child(3) i {
+  padding-top: 5px;
+  font-size: 11px;
+}
+
+footer ul li:nth-child(3) p {
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-bottom: -3px;
+}
+
+footer ul li:nth-child(5) p {
+  margin-top: -6px;
+}
+
+footer .footer-li-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 /*# sourceMappingURL=style.css.map */
