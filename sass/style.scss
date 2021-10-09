@@ -56,7 +56,6 @@ header {
 
         button {
             margin-top: 22px;
-            // padding: 10px 10px 10px 10px;
             border-radius: 50px;
             width: 236px;
             height: 81px;
@@ -81,7 +80,8 @@ main {
 
         ul {
             list-style-type: none;
-            padding: 12px;
+            padding-left: 25px;
+            margin-top: 29px;
             margin-bottom: 60px;
         }
 
@@ -126,6 +126,16 @@ main {
 
     .section-resturants-container {
         background-color: #f1f1f1;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: black;
+        }
     }
 
 footer {
@@ -136,10 +146,13 @@ footer {
 
     a {
         text-decoration: none;
+        color: white;
     }
 
     a:hover {
-        color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        text-decoration: none;
+        color: white;
+        // color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     }
 
     ul {
