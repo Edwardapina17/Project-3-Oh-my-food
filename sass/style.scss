@@ -126,6 +126,8 @@ main {
 
     .section-resturants-container {
         background-color: #f1f1f1;
+        width: 414px;
+        height: 585px;
 
         a {
             text-decoration: none;
@@ -135,6 +137,63 @@ main {
         a:hover {
             text-decoration: none;
             color: black;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .resturants-cards {
+                background-color: white;
+                border-radius: 15px;
+                width: 375px;
+                height: 274px;
+
+                .resturant-image {
+                    // background-color: blue;
+                    width: 374px;
+                    height: 190px;
+                    border-radius: 15px 15px 0px 0px;
+
+                    img {
+                        width: 374px;
+                        height: 190px;
+                        border-radius: 15px 15px 0px 0px;
+                    }
+                }
+
+                .resturants-info-section {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 385px;
+                    height: 100px;
+                    // background-color: red;
+
+                    ul {
+                        list-style-type: none;
+                        margin-bottom: 5px;
+                        padding-left: 11px;
+
+                        h3 {
+                            margin: 0px;
+                        }
+
+                        p {
+                            margin-top: 10px;
+                            font-size: 17px;
+                        }
+                    }
+
+                    i {
+                        padding: 25px 10px 10px 181px;
+                        font-size: 30px;
+                    }
+                }
+            }
         }
     }
 
@@ -152,7 +211,6 @@ footer {
     a:hover {
         text-decoration: none;
         color: white;
-        // color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     }
 
     ul {

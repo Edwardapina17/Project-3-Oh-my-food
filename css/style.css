@@ -161,6 +161,8 @@ main .main-container-mobile i {
 
 .section-resturants-container {
   background-color: #f1f1f1;
+  width: 414px;
+  height: 585px;
 }
 
 .section-resturants-container a {
@@ -171,6 +173,79 @@ main .main-container-mobile i {
 .section-resturants-container a:hover {
   text-decoration: none;
   color: black;
+}
+
+.section-resturants-container .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-resturants-container .cards-container .resturants-cards {
+  background-color: white;
+  border-radius: 15px;
+  width: 375px;
+  height: 274px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturant-image {
+  width: 374px;
+  height: 190px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturant-image img {
+  width: 374px;
+  height: 190px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 385px;
+  height: 100px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section ul {
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding-left: 11px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section ul h3 {
+  margin: 0px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section ul p {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section i {
+  padding: 25px 10px 10px 181px;
+  font-size: 30px;
 }
 
 footer {
