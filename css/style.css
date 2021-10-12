@@ -162,7 +162,13 @@ main .main-container-mobile i {
 .section-resturants-container {
   background-color: #f1f1f1;
   width: 414px;
-  height: 585px;
+  height: 1237px;
+}
+
+.section-resturants-container h2 {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-left: 13px;
 }
 
 .section-resturants-container a {
@@ -191,11 +197,17 @@ main .main-container-mobile i {
           align-items: center;
 }
 
+.section-resturants-container .cards-container .restaurant-image-margin {
+  margin-top: 15px;
+}
+
 .section-resturants-container .cards-container .resturants-cards {
   background-color: white;
   border-radius: 15px;
   width: 375px;
   height: 274px;
+  -webkit-box-shadow: 0 4px 14px -6px #545454;
+          box-shadow: 0 4px 14px -6px #545454;
 }
 
 .section-resturants-container .cards-container .resturants-cards .resturant-image {
@@ -248,8 +260,20 @@ main .main-container-mobile i {
   font-size: 30px;
 }
 
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .second-heart-padding {
+  padding: 24px 10px 10px 142px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .third-heart-padding {
+  padding: 24px 10px 10px 243px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .fourth-heart-padding {
+  padding: 24px 10px 10px 203px;
+}
+
 footer {
-  width: 412px;
+  width: 414px;
   height: 220px;
   background-color: #242424;
   font-family: 'Roboto', sans-serif;
@@ -277,6 +301,7 @@ footer ul li:nth-child(1) {
 footer ul li:nth-child(1) p {
   padding-top: 26px;
   font-size: 18px;
+  margin-top: 0px;
 }
 
 footer ul li:nth-child(2) i {

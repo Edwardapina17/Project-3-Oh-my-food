@@ -127,7 +127,13 @@ main {
     .section-resturants-container {
         background-color: #f1f1f1;
         width: 414px;
-        height: 585px;
+        height: 1237px;
+
+        h2 {
+            margin-top: 0px;
+            padding-top: 30px;
+            padding-left: 13px;
+        }
 
         a {
             text-decoration: none;
@@ -145,14 +151,18 @@ main {
             justify-content: center;
             align-items: center;
 
+            .restaurant-image-margin {
+                margin-top: 15px;
+            }
+
             .resturants-cards {
                 background-color: white;
                 border-radius: 15px;
                 width: 375px;
                 height: 274px;
+                box-shadow: 0 4px 14px -6px #545454;
 
                 .resturant-image {
-                    // background-color: blue;
                     width: 374px;
                     height: 190px;
                     border-radius: 15px 15px 0px 0px;
@@ -162,6 +172,7 @@ main {
                         height: 190px;
                         border-radius: 15px 15px 0px 0px;
                     }
+
                 }
 
                 .resturants-info-section {
@@ -171,7 +182,6 @@ main {
                     align-items: flex-start;
                     width: 385px;
                     height: 100px;
-                    // background-color: red;
 
                     ul {
                         list-style-type: none;
@@ -192,13 +202,27 @@ main {
                         padding: 25px 10px 10px 181px;
                         font-size: 30px;
                     }
+
+                    .second-heart-padding {
+                        padding: 24px 10px 10px 142px;
+                    }
+
+                    .third-heart-padding {
+                        padding: 24px 10px 10px 243px;
+                    }
+
+                    .fourth-heart-padding {
+                        padding: 24px 10px 10px 203px;
+                    }
                 }
+
             }
+
         }
     }
 
 footer {
-    width: 412px;
+    width: 414px;
     height: 220px;
     background-color: #242424;
     font-family: 'Roboto', sans-serif;
@@ -222,6 +246,7 @@ footer {
             p {
                 padding-top: 26px;
                 font-size: 18px;
+                margin-top: 0px;
             }
         }
 
