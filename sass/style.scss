@@ -203,6 +203,10 @@ main {
                         font-size: 30px;
                     }
 
+                    i:active {
+                        color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+                    }
+
                     .second-heart-padding {
                         padding: 24px 10px 10px 142px;
                     }
@@ -289,4 +293,48 @@ footer {
             justify-content: flex-start;
             align-items: flex-start;
         }
+}
+
+@media only screen  and (min-device-width: 768px)  {
+    header {
+        .header-logo-container{
+            img {
+                background-color: white;
+                height: 70px;
+                width: 338px;
+                padding: 10px;
+                }
+            }
+
+        .header-icon-container {
+            width: 768px;
+            height: 70px;
+
+            i {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 26px;
+                margin: 10px;
+            }
+        }
+        .header-info-container {
+            width: 768px;
+            height: 232px; 
+        }
+    }
+
+    main {
+        .main-container-mobile {
+            ul {
+                padding-left: 32px;
+            }
+
+            li {
+                width: 705px;
+                height: 70px;
+            } 
+        }
+    }
 }

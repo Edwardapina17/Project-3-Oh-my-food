@@ -260,6 +260,10 @@ main .main-container-mobile i {
   font-size: 30px;
 }
 
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section i:active {
+  color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
+}
+
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .second-heart-padding {
   padding: 24px 10px 10px 142px;
 }
@@ -343,5 +347,36 @@ footer .footer-li-container {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+@media only screen and (min-device-width: 768px) {
+  header .header-logo-container img {
+    background-color: white;
+    height: 70px;
+    width: 338px;
+    padding: 10px;
+  }
+  header .header-icon-container {
+    width: 768px;
+    height: 70px;
+  }
+  header .header-icon-container i {
+    font-size: 20px;
+  }
+  header .header-icon-container p {
+    font-size: 26px;
+    margin: 10px;
+  }
+  header .header-info-container {
+    width: 768px;
+    height: 232px;
+  }
+  main .main-container-mobile ul {
+    padding-left: 32px;
+  }
+  main .main-container-mobile li {
+    width: 705px;
+    height: 70px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
