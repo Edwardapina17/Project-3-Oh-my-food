@@ -7,7 +7,6 @@ header {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    // background-color: blue;
 
     .header-logo-container{
     img {
@@ -335,6 +334,11 @@ footer {
                 width: 705px;
                 height: 70px;
             } 
+        }
+
+        .section-resturants-container {
+            width: 768px;
+            height: 1237px;
         }
     }
 }
