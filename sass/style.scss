@@ -70,6 +70,22 @@ header {
 main {
     font-family: 'Roboto', sans-serif;
 
+    .main-container-numberbubble {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        p {
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            margin-right: 20px;
+            background-color: rgba(147,86,220,1);
+        }
+    }
+
     .main-container-mobile {
 
         h2 {
@@ -77,8 +93,8 @@ main {
             padding-top: 25px;
         }
 
-        ul {
-            list-style-type: none;
+        ol {
+            // list-style-type: none;
             padding-left: 25px;
             margin-top: 29px;
             margin-bottom: 60px;
@@ -89,26 +105,27 @@ main {
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
-            width: 366px;
+            width: 330px;
             height: 70px;
             border-radius: 20px;
             margin-top: 22px;
             box-shadow: 0 9px 34px -23px #545454;
             font-weight: bold;
             background-color: rgb(241, 241, 241);
+            padding-left: 34px;
         }
 
         li:nth-child(1) {
             margin-top: 0px;
         }
 
-        .li-p-container {
-            width: 25px;
-            height: 25px;
-            border-radius: 25px;
-            background-color: rgba(147,86,220,1);
-            margin-right: 20px;
-        }
+        // .li-p-container {
+        //     width: 25px;
+        //     height: 25px;
+        //     border-radius: 25px;
+        //     background-color: rgba(147,86,220,1);
+        //     margin-right: 20px;
+        // }
 
         p:nth-child(1) {
             margin: 3px 0px 0px 7px;
@@ -136,12 +153,13 @@ main {
 
         a {
             text-decoration: none;
-            color: black;
+            color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
         }
 
-        a:hover {
+        .fas a:hover {
+            display: hidden;
             text-decoration: none;
-            color: black;
+            color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
         }
 
         .cards-container {
@@ -202,7 +220,7 @@ main {
                         font-size: 30px;
                     }
 
-                    i:active {
+                    i:hover {
                         color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
                     }
 

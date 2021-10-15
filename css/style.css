@@ -100,13 +100,37 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+main .main-container-numberbubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .main-container-numberbubble p {
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 20px;
+  background-color: #9356dc;
+}
+
 main .main-container-mobile h2 {
   margin-left: 10px;
   padding-top: 25px;
 }
 
-main .main-container-mobile ul {
-  list-style-type: none;
+main .main-container-mobile ol {
   padding-left: 25px;
   margin-top: 29px;
   margin-bottom: 60px;
@@ -126,7 +150,7 @@ main .main-container-mobile li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 366px;
+  width: 330px;
   height: 70px;
   border-radius: 20px;
   margin-top: 22px;
@@ -134,18 +158,11 @@ main .main-container-mobile li {
           box-shadow: 0 9px 34px -23px #545454;
   font-weight: bold;
   background-color: #f1f1f1;
+  padding-left: 34px;
 }
 
 main .main-container-mobile li:nth-child(1) {
   margin-top: 0px;
-}
-
-main .main-container-mobile .li-p-container {
-  width: 25px;
-  height: 25px;
-  border-radius: 25px;
-  background-color: #9356dc;
-  margin-right: 20px;
 }
 
 main .main-container-mobile p:nth-child(1) {
@@ -173,12 +190,13 @@ main .main-container-mobile i {
 
 .section-resturants-container a {
   text-decoration: none;
-  color: black;
+  color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
 }
 
-.section-resturants-container a:hover {
+.section-resturants-container .fas a:hover {
+  display: hidden;
   text-decoration: none;
-  color: black;
+  color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
 }
 
 .section-resturants-container .cards-container {
@@ -260,7 +278,7 @@ main .main-container-mobile i {
   font-size: 30px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section i:active {
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section i:hover {
   color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
 }
 
