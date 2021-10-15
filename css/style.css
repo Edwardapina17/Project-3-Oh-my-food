@@ -352,8 +352,8 @@ footer .footer-li-container {
 @media only screen and (min-device-width: 768px) {
   header .header-logo-container img {
     background-color: white;
-    height: 70px;
-    width: 338px;
+    height: 62px;
+    width: 278px;
     padding: 10px;
   }
   header .header-icon-container {
@@ -381,6 +381,10 @@ footer .footer-li-container {
   main .section-resturants-container {
     width: 768px;
     height: 1237px;
+  }
+  footer {
+    width: 768px;
+    height: 220px;
   }
 }
 /*# sourceMappingURL=style.css.map */
