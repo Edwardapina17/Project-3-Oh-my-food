@@ -100,7 +100,11 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
-main .main-container-numberbubble {
+main .main-container-mobile h2 {
+  padding: 15px 0px 0px 18px;
+}
+
+main .main-container-mobile .howitworks-card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,72 +112,41 @@ main .main-container-numberbubble {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-main .main-container-numberbubble p {
-  color: white;
-  width: 25px;
-  height: 25px;
-  border-radius: 25px;
-  margin-right: 20px;
-  background-color: #9356dc;
-}
-
-main .main-container-mobile h2 {
-  margin-left: 10px;
-  padding-top: 25px;
-}
-
-main .main-container-mobile ol {
-  padding-left: 25px;
-  margin-top: 29px;
-  margin-bottom: 60px;
-}
-
-main .main-container-mobile li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 330px;
-  height: 70px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards {
+  width: 350px;
   border-radius: 20px;
-  margin-top: 22px;
-  -webkit-box-shadow: 0 9px 34px -23px #545454;
-          box-shadow: 0 9px 34px -23px #545454;
-  font-weight: bold;
-  background-color: #f1f1f1;
-  padding-left: 34px;
+  padding: 22px 0px 22px 0px;
+  margin: 13px 0;
+  display: inline-block;
+  text-align: center;
+  background-color: #f0f0f0;
 }
 
-main .main-container-mobile li:nth-child(1) {
-  margin-top: 0px;
-}
-
-main .main-container-mobile p:nth-child(1) {
-  margin: 3px 0px 0px 7px;
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-number {
+  width: 26px;
+  height: 21px;
+  border-radius: 50%;
+  padding-top: 4px;
+  margin-left: -178px;
+  display: inline-block;
   color: white;
+  background-color: #9356dc;
 }
 
-main .main-container-mobile i {
-  font-size: 17px;
-  color: grey;
-  margin-right: 25px;
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin {
+  margin-left: -194px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin-3 {
+  margin-left: -120px;
 }
 
 .section-resturants-container {
@@ -393,7 +366,7 @@ footer .footer-li-container {
     padding-left: 32px;
   }
   main .main-container-mobile li {
-    width: 705px;
+    width: 678px;
     height: 70px;
   }
   main .section-resturants-container {

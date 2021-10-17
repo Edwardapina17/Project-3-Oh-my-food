@@ -1,6 +1,7 @@
 body {
     margin: 0px;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -70,74 +71,53 @@ header {
 main {
     font-family: 'Roboto', sans-serif;
 
-    .main-container-numberbubble {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        p {
-            color: white;
-            width: 25px;
-            height: 25px;
-            border-radius: 25px;
-            margin-right: 20px;
-            background-color: rgba(147,86,220,1);
-        }
-    }
 
     .main-container-mobile {
 
         h2 {
-            margin-left: 10px;
-            padding-top: 25px;
+            padding: 15px 0px 0px 18px;
         }
 
-        ol {
-            // list-style-type: none;
-            padding-left: 25px;
-            margin-top: 29px;
-            margin-bottom: 60px;
-        }
-
-        li {
+        .howitworks-card-container {
             display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            width: 330px;
-            height: 70px;
-            border-radius: 20px;
-            margin-top: 22px;
-            box-shadow: 0 9px 34px -23px #545454;
-            font-weight: bold;
-            background-color: rgb(241, 241, 241);
-            padding-left: 34px;
+            
+            .howitworks-cards {
+                width: 350px;
+                border-radius: 20px;
+                padding: 22px 0px 22px 0px;
+                margin: 13px 0;
+                display: inline-block;
+                text-align: center;
+                background-color: rgb(240, 240, 240);
+
+                .howitworks-number {
+                    width: 26px;
+                    height: 21px;
+                    border-radius: 50%;
+                    padding-top: 4px;
+                    margin-left: -178px;
+                    display: inline-block;
+                    color: white;
+                    background-color: rgba(147,86,220,1);
+                }
+
+                .howitworks-margin {
+                    margin-left: -194px
+                } 
+                
+                .howitworks-margin-3 {
+
+                    margin-left: -120px;
+                }
+            }
+
         }
 
-        li:nth-child(1) {
-            margin-top: 0px;
-        }
-
-        // .li-p-container {
-        //     width: 25px;
-        //     height: 25px;
-        //     border-radius: 25px;
-        //     background-color: rgba(147,86,220,1);
-        //     margin-right: 20px;
-        // }
-
-        p:nth-child(1) {
-            margin: 3px 0px 0px 7px;
-            color: white;
-        }
-
-        i {
-            font-size: 17px;
-            color: grey;
-            margin-right: 25px
-        }
     }
+
 }
 
     .section-resturants-container {
@@ -349,7 +329,7 @@ footer {
             }
 
             li {
-                width: 705px;
+                width: 678px;
                 height: 70px;
             } 
         }
