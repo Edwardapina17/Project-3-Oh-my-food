@@ -135,18 +135,41 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards .howitw
   height: 21px;
   border-radius: 50%;
   padding-top: 4px;
-  margin-left: -178px;
+  margin-left: -156px;
   display: inline-block;
   color: white;
   background-color: #9356dc;
 }
 
-main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin {
-  margin-left: -194px;
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-choose {
+  font-weight: bold;
+  margin-left: 21px;
 }
 
-main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin-3 {
-  margin-left: -120px;
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-create {
+  font-weight: bold;
+  margin-left: 21px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-go {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards i {
+  margin-left: 10px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards .fa-store {
+  color: #9356dc;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin {
+  margin-left: -178px;
+}
+
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin-2 {
+  margin-left: -103px;
 }
 
 .section-resturants-container {

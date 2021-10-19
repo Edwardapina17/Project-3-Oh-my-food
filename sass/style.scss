@@ -98,19 +98,42 @@ main {
                     height: 21px;
                     border-radius: 50%;
                     padding-top: 4px;
-                    margin-left: -178px;
+                    margin-left: -156px;
                     display: inline-block;
                     color: white;
                     background-color: rgba(147,86,220,1);
                 }
 
+                .howitworks-choose {
+                    font-weight: bold;
+                    margin-left: 21px;
+                }
+
+                .howitworks-create {
+                    font-weight: bold;
+                    margin-left: 21px;
+                }
+
+                .howitworks-go {
+                    font-weight: bold;
+                    margin-left: 15px;
+                }
+
+                i {
+                    margin-left: 10px;
+                }
+
+                .fa-store {
+                    color: rgba(147,86,220,1);
+                }
+
                 .howitworks-margin {
-                    margin-left: -194px
+                    margin-left: -178px
                 } 
                 
-                .howitworks-margin-3 {
+                .howitworks-margin-2 {
 
-                    margin-left: -120px;
+                    margin-left: -103px;
                 }
             }
 
