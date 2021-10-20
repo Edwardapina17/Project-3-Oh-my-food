@@ -178,7 +178,8 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards .howitw
 .section-resturants-container {
   background-color: #f1f1f1;
   width: 414px;
-  height: 1237px;
+  height: 1300px;
+  margin-bottom: -16px;
 }
 
 .section-resturants-container h2 {
