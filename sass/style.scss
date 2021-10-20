@@ -83,7 +83,8 @@ main {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
+            margin-bottom: 45px;
+
             .howitworks-cards {
                 width: 350px;
                 border-radius: 20px;
@@ -92,6 +93,7 @@ main {
                 display: inline-block;
                 text-align: center;
                 background-color: rgb(240, 240, 240);
+                box-shadow: 0 5px 14px -7px #747272;
 
                 .howitworks-number {
                     width: 26px;
@@ -154,17 +156,6 @@ main {
             padding-left: 13px;
         }
 
-        a {
-            text-decoration: none;
-            color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-        }
-
-        .fas a:hover {
-            display: hidden;
-            text-decoration: none;
-            color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-        }
-
         .cards-container {
             display: flex;
             flex-direction: column;
@@ -186,12 +177,26 @@ main {
                     width: 374px;
                     height: 190px;
                     border-radius: 15px 15px 0px 0px;
+                    position: relative;
 
                     img {
                         width: 374px;
                         height: 190px;
                         border-radius: 15px 15px 0px 0px;
                     }
+                
+                .New-box {
+                    position: absolute;
+                    top: 20px;
+                    left: 275px;
+                    font-size: 18px;
+                    padding: 6px;
+                    width: 68px;
+                    border-radius: 2px;
+                    text-align: center;
+                    color: rgb(56, 141, 109);
+                    background-color: rgb(144, 223, 192);
+                }
 
                 }
 
