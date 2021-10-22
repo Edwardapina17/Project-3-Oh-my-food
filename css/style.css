@@ -133,6 +133,18 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards {
           box-shadow: 0 5px 14px -7px #747272;
 }
 
+main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-cards-purple {
+  width: 350px;
+  border-radius: 20px;
+  padding: 22px 0px 22px 0px;
+  margin: 13px 0;
+  display: inline-block;
+  text-align: center;
+  background-color: #b99adf;
+  -webkit-box-shadow: 0 5px 14px -7px #747272;
+          box-shadow: 0 5px 14px -7px #747272;
+}
+
 main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-number {
   width: 26px;
   height: 21px;
@@ -370,11 +382,11 @@ footer .footer-li-container {
           align-items: flex-start;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
   header .header-logo-container img {
     background-color: white;
-    height: 62px;
-    width: 278px;
+    height: 5em;
+    width: 24em;
     padding: 10px;
   }
   header .header-icon-container {
@@ -392,6 +404,9 @@ footer .footer-li-container {
     width: 768px;
     height: 232px;
   }
+  main .main-container-mobile h2 {
+    padding: 15px 0px 0px 303px;
+  }
   main .main-container-mobile ul {
     padding-left: 32px;
   }
@@ -402,6 +417,13 @@ footer .footer-li-container {
   main .section-resturants-container {
     width: 768px;
     height: 1237px;
+    margin-bottom: -16px;
+  }
+  main .section-resturants-container h2 {
+    padding-left: 313px;
+    background-color: white;
+    width: 455px;
+    height: 45px;
   }
   footer {
     width: 768px;
