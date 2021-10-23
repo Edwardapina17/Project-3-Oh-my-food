@@ -95,6 +95,17 @@ main {
                 background-color: rgb(240, 240, 240);
                 box-shadow: 0 5px 14px -7px #747272;
 
+            .howitworks-cards-purple {
+                width: 350px;
+                border-radius: 20px;
+                padding: 22px 0px 22px 0px;
+                margin: 13px 0;
+                display: inline-block;
+                text-align: center;
+                background-color: rgb(185, 154, 223);
+                box-shadow: 0 5px 14px -7px #747272;
+            }
+
                 .howitworks-number {
                     width: 26px;
                     height: 21px;
@@ -321,13 +332,15 @@ footer {
         }
 }
 
-@media (min-width: 768px)  {
+
+// ****TABLET****
+@media (min-width:768px)  {
     header {
         .header-logo-container{
             img {
                 background-color: white;
-                height: 62px;
-                width: 278px;
+                height: 5em;
+                width: 24em;
                 padding: 10px;
                 }
             }
@@ -353,6 +366,10 @@ footer {
 
     main {
         .main-container-mobile {
+            h2 {
+                padding: 15px 0px 0px 303px;
+            }
+
             ul {
                 padding-left: 32px;
             }
@@ -366,6 +383,14 @@ footer {
         .section-resturants-container {
             width: 768px;
             height: 1237px;
+            margin-bottom: -16px;
+
+            h2 {
+                padding-left: 313px;
+                background-color: white;
+                width: 455px;
+                height: 45px;
+            }
         }
     }
 
@@ -375,18 +400,76 @@ footer {
     }
 }
 
+// ****DESKTOP****
+// @media (min-width: 1025px) {
+//     header {
+//         .header-logo-container{
+//             img {
+//                 background-color: white;
+//                 height: 8em;
+//                 width: 41em;
+//                 padding: 10px;
+//                 }
+//             }
 
-// Bastille menu page
-header {
-    span {
-        i {
-        
-        }
+//         .header-icon-container {
+//             width: 90em;
+//             height: 4.5em;
 
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
+//             i {
+//                 font-size: 20px;
+//             }
 
-}
+//             p {
+//                 font-size: 26px;
+//                 margin: 10px;
+//             }
+//         }
+//         .header-info-container {
+//             width: 90em;
+//             height: 232px; 
+//         }
+//     }
+// }
+
+// main {
+//     .main-container-mobile {
+//         .howitworks-card-container{
+
+//             .howitworks-cards {
+//                 width: 40em;
+//             }
+
+//         }
+
+//         h2 {
+//             padding: 15px 0px 0px 303px;
+//         }
+
+//         ul {
+//             padding-left: 32px;
+//         }
+
+//         li {
+//             width: 678px;
+//             height: 70px;
+//         } 
+//     }
+
+//     .section-resturants-container {
+//         width: 90em;
+//         height: 1237px;
+//         margin-bottom: -16px;
+
+//         h2 {
+//             padding-left: 27.3em;
+//             background-color: white;
+//             width: 90em;
+//             height: 45px;
+//         }
+//     }
+
+//     footer {
+//         width: 90em;
+//     }
+// }
