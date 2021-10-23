@@ -370,7 +370,7 @@ footer .footer-li-container {
           align-items: flex-start;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
   header .header-logo-container img {
     background-color: white;
     height: 62px;

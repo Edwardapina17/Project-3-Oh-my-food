@@ -321,7 +321,7 @@ footer {
         }
 }
 
-@media only screen  and (min-device-width: 768px)  {
+@media (min-width: 768px)  {
     header {
         .header-logo-container{
             img {
@@ -373,4 +373,20 @@ footer {
         width: 768px;
         height: 220px;
     }
+}
+
+
+// Bastille menu page
+header {
+    span {
+        i {
+        
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
 }
