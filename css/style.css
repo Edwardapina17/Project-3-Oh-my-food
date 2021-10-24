@@ -382,52 +382,71 @@ footer .footer-li-container {
           align-items: flex-start;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header .header-logo-container img {
-    background-color: white;
-    height: 5em;
-    width: 24em;
-    padding: 10px;
+    height: 77px;
+    width: 365px;
   }
   header .header-icon-container {
     width: 768px;
-    height: 70px;
+    height: 71px;
   }
   header .header-icon-container i {
-    font-size: 20px;
+    font-size: 25px;
   }
   header .header-icon-container p {
-    font-size: 26px;
-    margin: 10px;
+    font-size: 25px;
   }
   header .header-info-container {
     width: 768px;
-    height: 232px;
+  }
+  header .header-info-container h2 {
+    font-size: 27px;
+    margin-bottom: 0px;
+  }
+  header .header-info-container p {
+    font-size: 25px;
+    width: 83%;
+    margin-bottom: 52px;
+  }
+  header .header-info-container button {
+    margin-top: -11px;
+    border-radius: 50px;
+    width: 287px;
+    height: 66px;
   }
   main .main-container-mobile h2 {
-    padding: 15px 0px 0px 303px;
+    font-size: 27px;
+    padding: 15px 0px 0px 293px;
   }
-  main .main-container-mobile ul {
-    padding-left: 32px;
+  main .main-container-mobile .howitworks-card-container .howitworks-cards {
+    width: 530px;
+    padding: 30px 0px 30px 0px;
   }
-  main .main-container-mobile li {
-    width: 678px;
-    height: 70px;
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-number {
+    width: 18px;
+    padding: 17px;
+    margin-left: -258px;
+    font-size: 19px;
   }
-  main .section-resturants-container {
-    width: 768px;
-    height: 1237px;
-    margin-bottom: -16px;
+  main .main-container-mobile .howitworks-card-container .howitworks-cards i {
+    font-size: 23.5px;
+    margin-left: 18px;
   }
-  main .section-resturants-container h2 {
-    padding-left: 313px;
-    background-color: white;
-    width: 455px;
-    height: 45px;
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-choose {
+    font-size: 23px;
   }
-  footer {
-    width: 768px;
-    height: 220px;
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-create {
+    font-size: 23px;
+  }
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-go {
+    font-size: 23px;
+  }
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin {
+    margin-left: -280px;
+  }
+  main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin-2 {
+    margin-left: -168px;
   }
 }
 /*# sourceMappingURL=style.css.map */

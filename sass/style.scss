@@ -334,142 +334,96 @@ footer {
 
 
 // ****TABLET****
-@media (min-width:768px)  {
+@media only screen and (min-width: 768px) {
     header {
-        .header-logo-container{
+        .header-logo-container {
             img {
-                background-color: white;
-                height: 5em;
-                width: 24em;
-                padding: 10px;
-                }
+                height: 77px;
+                width: 365px;
             }
+        }
 
         .header-icon-container {
             width: 768px;
-            height: 70px;
+            height: 71px;
 
             i {
-                font-size: 20px;
+                font-size: 25px;
             }
 
             p {
-                font-size: 26px;
-                margin: 10px;
+                font-size: 25px;
             }
         }
+
         .header-info-container {
             width: 768px;
-            height: 232px; 
+
+            h2 {
+                font-size: 27px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 25px;
+                width: 83%;
+                margin-bottom: 52px;
+            }
+
+            button {
+                margin-top: -11px;
+                border-radius: 50px;
+                width: 287px;
+                height: 66px;
+            }
+
         }
     }
-
     main {
         .main-container-mobile {
             h2 {
-                padding: 15px 0px 0px 303px;
+                font-size: 27px;
+                padding: 15px 0px 0px 293px;
             }
 
-            ul {
-                padding-left: 32px;
-            }
+            .howitworks-card-container {
+                .howitworks-cards {
+                    width: 530px;
+                    padding: 30px 0px 30px 0px;
 
-            li {
-                width: 678px;
-                height: 70px;
-            } 
+                    .howitworks-number {
+                        width: 18px;
+                        padding: 17px;
+                        margin-left: -258px;
+                        font-size: 19px;
+                    }
+
+                    i {
+                        font-size: 23.5px;
+                        margin-left: 18px;
+                    }
+
+                    .howitworks-choose {
+                        font-size: 23px
+                    }
+
+                    .howitworks-create {
+                        font-size: 23px;   
+                    }
+
+                    .howitworks-go {
+                        font-size: 23px;
+                    }
+
+                    .howitworks-margin {
+                        margin-left: -280px;
+                    }
+
+                    .howitworks-margin-2 {
+                        margin-left: -168px;
+                    }
+                } 
+            }
         }
-
-        .section-resturants-container {
-            width: 768px;
-            height: 1237px;
-            margin-bottom: -16px;
-
-            h2 {
-                padding-left: 313px;
-                background-color: white;
-                width: 455px;
-                height: 45px;
-            }
-        }
-    }
-
-    footer {
-        width: 768px;
-        height: 220px;
     }
 }
-
-// ****DESKTOP****
-// @media (min-width: 1025px) {
-//     header {
-//         .header-logo-container{
-//             img {
-//                 background-color: white;
-//                 height: 8em;
-//                 width: 41em;
-//                 padding: 10px;
-//                 }
-//             }
-
-//         .header-icon-container {
-//             width: 90em;
-//             height: 4.5em;
-
-//             i {
-//                 font-size: 20px;
-//             }
-
-//             p {
-//                 font-size: 26px;
-//                 margin: 10px;
-//             }
-//         }
-//         .header-info-container {
-//             width: 90em;
-//             height: 232px; 
-//         }
-//     }
-// }
-
-// main {
-//     .main-container-mobile {
-//         .howitworks-card-container{
-
-//             .howitworks-cards {
-//                 width: 40em;
-//             }
-
-//         }
-
-//         h2 {
-//             padding: 15px 0px 0px 303px;
-//         }
-
-//         ul {
-//             padding-left: 32px;
-//         }
-
-//         li {
-//             width: 678px;
-//             height: 70px;
-//         } 
-//     }
-
-//     .section-resturants-container {
-//         width: 90em;
-//         height: 1237px;
-//         margin-bottom: -16px;
-
-//         h2 {
-//             padding-left: 27.3em;
-//             background-color: white;
-//             width: 90em;
-//             height: 45px;
-//         }
-//     }
-
-//     footer {
-//         width: 90em;
-//     }
-// }
