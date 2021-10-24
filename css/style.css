@@ -448,5 +448,15 @@ footer .footer-li-container {
   main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin-2 {
     margin-left: -168px;
   }
+  main .section-resturants-container {
+    width: 768px;
+  }
+  main .section-resturants-container h2 {
+    font-size: 30px;
+    padding-left: 294px;
+  }
+  footer {
+    width: 768px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
