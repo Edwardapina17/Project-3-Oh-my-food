@@ -134,15 +134,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards {
 }
 
 main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-cards-purple {
-  width: 350px;
-  border-radius: 20px;
-  padding: 22px 0px 22px 0px;
-  margin: 13px 0;
-  display: inline-block;
-  text-align: center;
   background-color: #b99adf;
-  -webkit-box-shadow: 0 5px 14px -7px #747272;
-          box-shadow: 0 5px 14px -7px #747272;
 }
 
 main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-number {
@@ -457,6 +449,30 @@ footer .footer-li-container {
   }
   footer {
     width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header .header-icon-container {
+    width: 1425px;
+  }
+  header .header-info-container {
+    width: 1425px;
+    height: 325px;
+  }
+  main .main-container-mobile h2 {
+    font-size: 30px;
+    padding: 15px 0px 0px 600px;
+  }
+  main .section-resturants-container {
+    width: 1425px;
+  }
+  main .section-resturants-container h2 {
+    font-size: 30px;
+    padding-left: 620px;
+  }
+  footer {
+    width: 1425px;
   }
 }
 /*# sourceMappingURL=style.css.map */
