@@ -25,7 +25,7 @@ body {
 
 .bastille-header .bastille-span i {
   font-size: 22px;
-  margin: 0px 67px 0px 23px;
+  margin: 0px 62px 0px 23px;
 }
 
 .bastille-header .bastille-span img {
@@ -58,6 +58,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  position: relative;
   background-color: #f1f1f1;
   border-radius: 35px 35px 0px 0px;
   width: 414px;
@@ -71,5 +72,7 @@ body {
 
 .bastille-main .bastille-main-title i {
   font-size: 25px;
+  position: relative;
+  left: 50px;
 }
 /*# sourceMappingURL=style.css.map */
