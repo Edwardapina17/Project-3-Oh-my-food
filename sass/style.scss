@@ -95,9 +95,7 @@ body {
 //                 background-color: rgb(240, 240, 240);
 //                 box-shadow: 0 5px 14px -7px #747272;
 
-//             .howitworks-cards-purple {
-//                 background-color: rgb(185, 154, 223);
-//             }
+           
 
 //                 .howitworks-number {
 //                     width: 26px;
@@ -141,8 +139,11 @@ body {
 
 //                     margin-left: -103px;
 //                 }
-//             }
 
+//             }
+//             .howitworks-cards-purple {
+//                 background-color: #f2e6fd;
+//             }
 //         }
 
 //     }
@@ -470,7 +471,7 @@ body {
 //     }
 // }
 
-//bastille page 
+// //bastille page 
 .bastille-header {
     width: 414px;
     height: 72px;
@@ -521,13 +522,40 @@ body {
             font-size: 28px;
             font-family: 'Shrikhand', cursive;
             margin-left: 15px;
+            margin-bottom: 5px;
         }
 
         i {
             font-size: 25px;
             position: relative;
-            left: 50px;
+            left: 220px;
         }
 
+    }
+
+    .bastille-menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        font-family: 'Roboto', sans-serif;
+        background-color: #f1f1f1;
+        width: 414px;
+        padding-left: 13px;
+
+        .bastille-entrees-container {
+            width: 385px;
+            border-radius: 15px;
+            background-color: rgb(196, 80, 80);
+
+            h3 {
+                margin: 10px 10px 4px 10px;
+            }
+
+            p {
+                margin: 0px 10px 10px 10px;
+                font-size: 15px;
+            }
+        }
     }
 }
