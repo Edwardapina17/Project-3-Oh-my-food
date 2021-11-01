@@ -97,14 +97,23 @@ body {
   padding-left: 13px;
 }
 
+.bastille-main .bastille-menu-container p {
+  font-size: 20px;
+  -webkit-text-decoration-color: underline soild #90dfc0;
+          text-decoration-color: underline soild #90dfc0;
+}
+
 .bastille-main .bastille-menu-container .bastille-entrees-container {
   width: 385px;
   border-radius: 15px;
-  background-color: #c45050;
+  background-color: white;
+  margin-bottom: 13px;
+  -webkit-box-shadow: 0 4px 14px -6px #545454;
+          box-shadow: 0 4px 14px -6px #545454;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container h3 {
-  margin: 10px 10px 4px 10px;
+  margin: 11px 11px 4px 11px;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container p {

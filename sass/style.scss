@@ -95,8 +95,6 @@ body {
 //                 background-color: rgb(240, 240, 240);
 //                 box-shadow: 0 5px 14px -7px #747272;
 
-           
-
 //                 .howitworks-number {
 //                     width: 26px;
 //                     height: 21px;
@@ -504,7 +502,7 @@ body {
 
     .bastille-img-container {
         img {
-            width: 414px;
+            width: 414px; 
         }
     }
 
@@ -543,13 +541,20 @@ body {
         width: 414px;
         padding-left: 13px;
 
+        p {
+            font-size: 20px;
+            text-decoration-color: underline soild rgb(144, 223, 192) ;
+        }
+
         .bastille-entrees-container {
             width: 385px;
             border-radius: 15px;
-            background-color: rgb(196, 80, 80);
+            background-color: white;
+            margin-bottom: 13px;
+            box-shadow: 0 4px 14px -6px #545454;
 
             h3 {
-                margin: 10px 10px 4px 10px;
+                margin: 11px 11px 4px 11px;
             }
 
             p {
