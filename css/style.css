@@ -2,6 +2,79 @@ body {
   margin: 0px;
 }
 
+footer {
+  width: 414px;
+  height: 220px;
+  background-color: #242424;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  color: white;
+}
+
+footer ul li:nth-child(1) {
+  font-family: 'Shrikhand', cursive;
+}
+
+footer ul li:nth-child(1) p {
+  padding-top: 26px;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+footer ul li:nth-child(2) i {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+footer ul li:nth-child(2) p {
+  margin-top: 0px;
+  padding-left: 13px;
+}
+
+footer ul li:nth-child(3) i {
+  padding-top: 5px;
+  font-size: 11px;
+}
+
+footer ul li:nth-child(3) p {
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-bottom: -3px;
+}
+
+footer ul li:nth-child(5) p {
+  margin-top: -6px;
+}
+
+footer .footer-li-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .bastille-header {
   width: 414px;
   height: 72px;
@@ -93,7 +166,7 @@ body {
           justify-content: flex-start;
   font-family: 'Roboto', sans-serif;
   background-color: #f1f1f1;
-  width: 414px;
+  width: 401px;
   padding-left: 13px;
 }
 
@@ -119,5 +192,17 @@ body {
 .bastille-main .bastille-menu-container .bastille-entrees-container p {
   margin: 0px 10px 10px 10px;
   font-size: 15px;
+}
+
+.bastille-main .bastille-menu-container button {
+  margin: 27px 0px 10px 72px;
+  border-radius: 50px;
+  width: 236px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-image: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
 }
 /*# sourceMappingURL=style.css.map */
