@@ -497,7 +497,7 @@ footer {
 
 .bastille-main {
     width: 414px;
-    height: 500px;
+    height: 1470px;
     // background-color: #f1f1f1;
 
     .bastille-img-container {
@@ -542,8 +542,13 @@ footer {
         padding-left: 13px;
 
         p {
-            font-size: 20px;
-            text-decoration-color: underline soild rgb(144, 223, 192) ;
+            font-size: 18px;
+            padding-bottom: 6px;
+        }
+
+        .word-green-line {
+            border-bottom: 3px solid rgb(144, 223, 192);
+            width: 10%;
         }
 
         .bastille-entrees-container {
@@ -564,7 +569,7 @@ footer {
         }
 
         button {
-                margin: 27px 0px 10px 72px;
+                margin: 27px 0px 76px 72px;
                 border-radius: 50px;
                 width: 236px;
                 height: 60px;
