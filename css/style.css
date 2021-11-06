@@ -110,11 +110,20 @@ footer .footer-li-container {
 
 .bastille-main {
   width: 414px;
-  height: 1470px;
+  height: 1353px;
+}
+
+.bastille-main .bastille-img-container {
+  position: relative;
 }
 
 .bastille-main .bastille-img-container img {
   width: 414px;
+}
+
+.bastille-main .bastille-food-container {
+  position: absolute;
+  top: 293px;
 }
 
 .bastille-main .bastille-main-title {
@@ -133,7 +142,7 @@ footer .footer-li-container {
           justify-content: flex-start;
   position: relative;
   background-color: #f1f1f1;
-  border-radius: 35px 35px 0px 0px;
+  border-radius: 45px 45px 0px 0px;
   width: 414px;
 }
 
@@ -148,6 +157,7 @@ footer .footer-li-container {
   font-size: 25px;
   position: relative;
   left: 220px;
+  top: 10px;
 }
 
 .bastille-main .bastille-menu-container {
@@ -175,6 +185,7 @@ footer .footer-li-container {
 }
 
 .bastille-main .bastille-menu-container .word-green-line {
+  white-space: nowrap;
   border-bottom: 3px solid #90dfc0;
   padding-bottom: 6px;
   width: 10%;
@@ -187,6 +198,7 @@ footer .footer-li-container {
   margin-bottom: 13px;
   -webkit-box-shadow: 0 4px 14px -6px #545454;
           box-shadow: 0 4px 14px -6px #545454;
+  position: relative;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container h3 {
@@ -196,6 +208,12 @@ footer .footer-li-container {
 .bastille-main .bastille-menu-container .bastille-entrees-container p {
   margin: 0px 10px 10px 10px;
   font-size: 15px;
+}
+
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price {
+  position: absolute;
+  top: 40px;
+  left: 330px;
 }
 
 .bastille-main .bastille-menu-container button {
