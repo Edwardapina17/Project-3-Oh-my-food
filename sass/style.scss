@@ -498,7 +498,6 @@ footer {
 .bastille-main {
     width: 414px;
     height: 1353px;
-    // background-color: #f1f1f1;
 
     .bastille-img-container {
         position: relative;
@@ -521,6 +520,11 @@ footer {
         background-color: #f1f1f1;
         border-radius: 45px 45px 0px 0px;
         width: 414px;
+
+        .enchanted-container {
+            width: 121px;
+            white-space: nowrap;
+        }
 
         p {
             font-size: 28px;
@@ -600,5 +604,33 @@ footer {
 .enchanted-main {
     width: 414px;
     height: 1432px;
+}
+
+@media only screen and (min-width: 768px) {
+    .bastille-header {
+        width: 768px;
+
+        .bastille-span {
+            i {
+                margin: 0px 236px 0px 23px;
+            }
+        }
+    }
+
+    .bastille-img-container {
+        width: 768px;
+
+        img {
+            width: 768px
+        };
+    }
+
+    .enchanted-main {
+        width: 768px;
+    }
+
+    footer {
+        width: 768px;
+    }
 }
 
