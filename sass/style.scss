@@ -585,6 +585,12 @@ footer {
                 top: 40px;
                 left: 330px;
             }
+
+            .gourmand-entrees-price {
+                position: absolute;
+                top: 64px;
+                left: 330px;
+            }
         }
 
         button {
@@ -604,6 +610,16 @@ footer {
 .enchanted-main {
     width: 414px;
     height: 1432px;
+}
+
+.palette-main {
+    width: 414px;
+    height: 1354px;
+}
+
+.gourmand-main {
+    width: 414px;
+    height: 1376px;
 }
 
 @media only screen and (min-width: 768px) {
