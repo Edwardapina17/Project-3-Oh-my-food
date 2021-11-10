@@ -2,257 +2,257 @@ body {
     margin: 0px;
 }
 
-// header {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     font-family: 'Roboto', sans-serif;
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 
-//     .header-logo-container{
-//     img {
-//         background-color: white;
-//         height: 35px;
-//         width: 170px;
-//         padding: 10px;
-//         }
-//     }
+    .header-logo-container{
+    img {
+        background-color: white;
+        height: 35px;
+        width: 170px;
+        padding: 10px;
+        }
+    }
 
-//     .header-icon-container {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: #dbdada;
-//         width: 414px;
-//         height: 55px;
-//         box-shadow: inset 0 3px 6px -6px black;
-//         p {
-//             margin: 10px;
-//         }
-//     }
+    .header-icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #dbdada;
+        width: 414px;
+        height: 55px;
+        box-shadow: inset 0 3px 6px -6px black;
+        p {
+            margin: 10px;
+        }
+    }
 
-//     .header-info-container {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         width: 414px;
-//         height: 232px;
-//         padding-top: 18px;
-//         padding-bottom: 53px;
-//         background-color: rgb(241, 241, 241);
-//         h2 {
-//             font-size: 25px;
-//             font-weight: bold;
-//         }
+    .header-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 414px;
+        height: 232px;
+        padding-top: 18px;
+        padding-bottom: 53px;
+        background-color: rgb(241, 241, 241);
+        h2 {
+            font-size: 25px;
+            font-weight: bold;
+        }
 
-//         p {
-//             font-size: 18px;
-//             font-weight: 350;
-//             text-align: center;
-//             width: 60%;
-//         }
+        p {
+            font-size: 18px;
+            font-weight: 350;
+            text-align: center;
+            width: 60%;
+        }
 
-//         button {
-//             margin-top: 22px;
-//             border-radius: 50px;
-//             width: 236px;
-//             height: 81px;
-//             font-size: 16px;
-//             font-weight: bold;
-//             border: none;
-//             color: white;
-//             background-image: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-//         }
-//     }
-// }
+        button {
+            margin-top: 22px;
+            border-radius: 50px;
+            width: 236px;
+            height: 81px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            color: white;
+            background-image: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        }
+    }
+}
 
-// main {
-//     font-family: 'Roboto', sans-serif;
+main {
+    font-family: 'Roboto', sans-serif;
 
 
-//     .main-container-mobile {
+    .main-container-mobile {
 
-//         h2 {
-//             padding: 15px 0px 0px 18px;
-//         }
+        h2 {
+            padding: 15px 0px 0px 18px;
+        }
 
-//         .howitworks-card-container {
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             align-items: center;
-//             margin-bottom: 45px;
+        .howitworks-card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 45px;
 
-//             .howitworks-cards {
-//                 width: 350px;
-//                 border-radius: 20px;
-//                 padding: 22px 0px 22px 0px;
-//                 margin: 13px 0;
-//                 display: inline-block;
-//                 text-align: center;
-//                 background-color: rgb(240, 240, 240);
-//                 box-shadow: 0 5px 14px -7px #747272;
+            .howitworks-cards {
+                width: 350px;
+                border-radius: 20px;
+                padding: 22px 0px 22px 0px;
+                margin: 13px 0;
+                display: inline-block;
+                text-align: center;
+                background-color: rgb(240, 240, 240);
+                box-shadow: 0 5px 14px -7px #747272;
 
-//                 .howitworks-number {
-//                     width: 26px;
-//                     height: 21px;
-//                     border-radius: 50%;
-//                     padding-top: 4px;
-//                     margin-left: -156px;
-//                     display: inline-block;
-//                     color: white;
-//                     background-color: rgba(147,86,220,1);
-//                 }
+                .howitworks-number {
+                    width: 26px;
+                    height: 21px;
+                    border-radius: 50%;
+                    padding-top: 4px;
+                    margin-left: -156px;
+                    display: inline-block;
+                    color: white;
+                    background-color: rgba(147,86,220,1);
+                }
 
-//                 .howitworks-choose {
-//                     font-weight: bold;
-//                     margin-left: 21px;
-//                 }
+                .howitworks-choose {
+                    font-weight: bold;
+                    margin-left: 21px;
+                }
 
-//                 .howitworks-create {
-//                     font-weight: bold;
-//                     margin-left: 21px;
-//                 }
+                .howitworks-create {
+                    font-weight: bold;
+                    margin-left: 21px;
+                }
 
-//                 .howitworks-go {
-//                     font-weight: bold;
-//                     margin-left: 15px;
-//                 }
+                .howitworks-go {
+                    font-weight: bold;
+                    margin-left: 15px;
+                }
 
-//                 i {
-//                     margin-left: 10px;
-//                 }
+                i {
+                    margin-left: 10px;
+                }
 
-//                 .fa-store {
-//                     color: rgba(147,86,220,1);
-//                 }
+                .fa-store {
+                    color: rgba(147,86,220,1);
+                }
 
-//                 .howitworks-margin {
-//                     margin-left: -178px
-//                 } 
+                .howitworks-margin {
+                    margin-left: -178px
+                } 
                 
-//                 .howitworks-margin-2 {
+                .howitworks-margin-2 {
 
-//                     margin-left: -103px;
-//                 }
+                    margin-left: -103px;
+                }
 
-//             }
-//             .howitworks-cards-purple {
-//                 background-color: #f2e6fd;
-//             }
-//         }
+            }
+            .howitworks-cards-purple {
+                background-color: #f2e6fd;
+            }
+        }
 
-//     }
+    }
 
-// }
+}
 
-//     .section-resturants-container {
-//         background-color: #f1f1f1;
-//         width: 414px;
-//         height: 1300px;
-//         margin-bottom: -16px;
+    .section-resturants-container {
+        background-color: #f1f1f1;
+        width: 414px;
+        height: 1300px;
+        margin-bottom: -16px;
 
-//         h2 {
-//             margin-top: 0px;
-//             padding-top: 30px;
-//             padding-left: 13px;
-//         }
+        h2 {
+            margin-top: 0px;
+            padding-top: 30px;
+            padding-left: 13px;
+        }
 
-//         .cards-container {
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             align-items: center;
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-//             .restaurant-image-margin {
-//                 margin-top: 15px;
-//             }
+            .restaurant-image-margin {
+                margin-top: 15px;
+            }
 
-//             .resturants-cards {
-//                 background-color: white;
-//                 border-radius: 15px;
-//                 width: 375px;
-//                 height: 274px;
-//                 box-shadow: 0 4px 14px -6px #545454;
+            .resturants-cards {
+                background-color: white;
+                border-radius: 15px;
+                width: 375px;
+                height: 274px;
+                box-shadow: 0 4px 14px -6px #545454;
 
-//                 .resturant-image {
-//                     width: 374px;
-//                     height: 190px;
-//                     border-radius: 15px 15px 0px 0px;
-//                     position: relative;
+                .resturant-image {
+                    width: 374px;
+                    height: 190px;
+                    border-radius: 15px 15px 0px 0px;
+                    position: relative;
 
-//                     img {
-//                         width: 374px;
-//                         height: 190px;
-//                         border-radius: 15px 15px 0px 0px;
-//                     }
+                    img {
+                        width: 374px;
+                        height: 190px;
+                        border-radius: 15px 15px 0px 0px;
+                    }
                 
-//                 .New-box {
-//                     position: absolute;
-//                     top: 20px;
-//                     left: 275px;
-//                     font-size: 18px;
-//                     padding: 6px;
-//                     width: 68px;
-//                     border-radius: 2px;
-//                     text-align: center;
-//                     color: rgb(56, 141, 109);
-//                     background-color: rgb(144, 223, 192);
-//                 }
+                .New-box {
+                    position: absolute;
+                    top: 20px;
+                    left: 275px;
+                    font-size: 18px;
+                    padding: 6px;
+                    width: 68px;
+                    border-radius: 2px;
+                    text-align: center;
+                    color: rgb(56, 141, 109);
+                    background-color: rgb(144, 223, 192);
+                }
 
-//                 }
+                }
 
-//                 .resturants-info-section {
-//                     display: flex;
-//                     flex-direction: row;
-//                     justify-content: flex-start;
-//                     align-items: flex-start;
-//                     width: 385px;
-//                     height: 100px;
+                .resturants-info-section {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 385px;
+                    height: 100px;
 
-//                     ul {
-//                         list-style-type: none;
-//                         margin-bottom: 5px;
-//                         padding-left: 11px;
+                    ul {
+                        list-style-type: none;
+                        margin-bottom: 5px;
+                        padding-left: 11px;
 
-//                         h3 {
-//                             margin: 0px;
-//                         }
+                        h3 {
+                            margin: 0px;
+                        }
 
-//                         p {
-//                             margin-top: 10px;
-//                             font-size: 17px;
-//                         }
-//                     }
+                        p {
+                            margin-top: 10px;
+                            font-size: 17px;
+                        }
+                    }
 
-//                     i {
-//                         padding: 25px 10px 10px 181px;
-//                         font-size: 30px;
-//                     }
+                    i {
+                        padding: 25px 10px 10px 181px;
+                        font-size: 30px;
+                    }
 
-//                     i:hover {
-//                         color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-//                     }
+                    i:hover {
+                        color: linear-gradient(163deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+                    }
 
-//                     .second-heart-padding {
-//                         padding: 24px 10px 10px 142px;
-//                     }
+                    .second-heart-padding {
+                        padding: 24px 10px 10px 142px;
+                    }
 
-//                     .third-heart-padding {
-//                         padding: 24px 10px 10px 243px;
-//                     }
+                    .third-heart-padding {
+                        padding: 24px 10px 10px 243px;
+                    }
 
-//                     .fourth-heart-padding {
-//                         padding: 24px 10px 10px 203px;
-//                     }
-//                 }
+                    .fourth-heart-padding {
+                        padding: 24px 10px 10px 203px;
+                    }
+                }
 
-//             }
+            }
 
-//         }
-//     }
+        }
+    }
 
 footer {
     width: 414px;
@@ -325,151 +325,151 @@ footer {
 }
 
 
-// // ****TABLET****
-// @media only screen and (min-width: 768px) {
-//     header {
-//         .header-logo-container {
-//             img {
-//                 height: 77px;
-//                 width: 365px;
-//             }
-//         }
+// ****TABLET****
+@media only screen and (min-width: 768px) {
+    header {
+        .header-logo-container {
+            img {
+                height: 77px;
+                width: 365px;
+            }
+        }
 
-//         .header-icon-container {
-//             width: 768px;
-//             height: 71px;
+        .header-icon-container {
+            width: 768px;
+            height: 71px;
 
-//             i {
-//                 font-size: 25px;
-//             }
+            i {
+                font-size: 25px;
+            }
 
-//             p {
-//                 font-size: 25px;
-//             }
-//         }
+            p {
+                font-size: 25px;
+            }
+        }
 
-//         .header-info-container {
-//             width: 768px;
+        .header-info-container {
+            width: 768px;
 
-//             h2 {
-//                 font-size: 27px;
-//                 margin-bottom: 0px;
-//             }
+            h2 {
+                font-size: 27px;
+                margin-bottom: 0px;
+            }
 
-//             p {
-//                 font-size: 25px;
-//                 width: 83%;
-//                 margin-bottom: 52px;
-//             }
+            p {
+                font-size: 25px;
+                width: 83%;
+                margin-bottom: 52px;
+            }
 
-//             button {
-//                 margin-top: -11px;
-//                 border-radius: 50px;
-//                 width: 287px;
-//                 height: 66px;
-//             }
+            button {
+                margin-top: -11px;
+                border-radius: 50px;
+                width: 287px;
+                height: 66px;
+            }
 
-//         }
-//     }
-//     main {
-//         .main-container-mobile {
-//             h2 {
-//                 font-size: 27px;
-//                 padding: 15px 0px 0px 293px;
-//             }
+        }
+    }
+    main {
+        .main-container-mobile {
+            h2 {
+                font-size: 27px;
+                padding: 15px 0px 0px 293px;
+            }
 
-//             .howitworks-card-container {
-//                 .howitworks-cards {
-//                     width: 530px;
-//                     padding: 30px 0px 30px 0px;
+            .howitworks-card-container {
+                .howitworks-cards {
+                    width: 530px;
+                    padding: 30px 0px 30px 0px;
 
-//                     .howitworks-number {
-//                         width: 18px;
-//                         padding: 17px;
-//                         margin-left: -258px;
-//                         font-size: 19px;
-//                     }
+                    .howitworks-number {
+                        width: 18px;
+                        padding: 17px;
+                        margin-left: -258px;
+                        font-size: 19px;
+                    }
 
-//                     i {
-//                         font-size: 23.5px;
-//                         margin-left: 18px;
-//                     }
+                    i {
+                        font-size: 23.5px;
+                        margin-left: 18px;
+                    }
 
-//                     .howitworks-choose {
-//                         font-size: 23px
-//                     }
+                    .howitworks-choose {
+                        font-size: 23px
+                    }
 
-//                     .howitworks-create {
-//                         font-size: 23px;   
-//                     }
+                    .howitworks-create {
+                        font-size: 23px;   
+                    }
 
-//                     .howitworks-go {
-//                         font-size: 23px;
-//                     }
+                    .howitworks-go {
+                        font-size: 23px;
+                    }
 
-//                     .howitworks-margin {
-//                         margin-left: -280px;
-//                     }
+                    .howitworks-margin {
+                        margin-left: -280px;
+                    }
 
-//                     .howitworks-margin-2 {
-//                         margin-left: -168px;
-//                     }
-//                 } 
-//             }
-//         }
+                    .howitworks-margin-2 {
+                        margin-left: -168px;
+                    }
+                } 
+            }
+        }
 
-//         .section-resturants-container {
-//             width: 768px;
+        .section-resturants-container {
+            width: 768px;
 
-//                 h2 {
-//                     font-size: 30px;
-//                     padding-left: 294px;
-//                 }
-//         }
-//     }
+                h2 {
+                    font-size: 30px;
+                    padding-left: 294px;
+                }
+        }
+    }
 
-//     footer {
-//         width: 768px;
-//     }
-// }
+    footer {
+        width: 768px;
+    }
+}
 
-// @media only screen and (min-width: 1200px)  {
-//     header {
-//         .header-icon-container {
-//             width: 1425px;
-//         }
+@media only screen and (min-width: 1200px)  {
+    header {
+        .header-icon-container {
+            width: 1425px;
+        }
 
-//         .header-info-container {
-//             width: 1425px;
-//             height: 325px;
+        .header-info-container {
+            width: 1425px;
+            height: 325px;
 
-//         }
-//     }
+        }
+    }
 
-//     main {
-//         .main-container-mobile {
-//             h2 {
-//                 font-size: 30px;
-//                 padding: 15px 0px 0px 600px;
-//             }
-//         }
+    main {
+        .main-container-mobile {
+            h2 {
+                font-size: 30px;
+                padding: 15px 0px 0px 600px;
+            }
+        }
 
-//         .section-resturants-container {
-//             width: 1425px;
+        .section-resturants-container {
+            width: 1425px;
 
-//             h2 {
-//                 font-size: 30px;
-//                 padding-left: 620px;
-//             }
-//         }
-//     }
+            h2 {
+                font-size: 30px;
+                padding-left: 620px;
+            }
+        }
+    }
 
-//     footer {
-//         width: 1425px;
-//     }
-// }
+    footer {
+        width: 1425px;
+    }
+}
 
-// //bastille page 
+// //Food Menu pages 
 .bastille-header {
     width: 414px;
     height: 72px;
@@ -491,6 +491,7 @@ footer {
             height: 36px;
             margin-top: 25px;
             margin-bottom: 13px;
+            margin-right: 100px;
         }
     }
 }
