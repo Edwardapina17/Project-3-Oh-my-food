@@ -261,6 +261,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: absolute;
   width: 385px;
   height: 100px;
 }
@@ -281,24 +282,25 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
 }
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section i {
-  padding: 25px 10px 10px 181px;
+  position: relative;
+  top: 28px;
+  left: 180px;
   font-size: 30px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section i:hover {
-  color: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .second-heart-position {
+  top: 30px;
+  left: 139px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .second-heart-padding {
-  padding: 24px 10px 10px 142px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .third-heart-position {
+  top: 31px;
+  left: 241px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .third-heart-padding {
-  padding: 24px 10px 10px 243px;
-}
-
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .fourth-heart-padding {
-  padding: 24px 10px 10px 203px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .fourth-heart-position {
+  top: 29px;
+  left: 200px;
 }
 
 footer {
