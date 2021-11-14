@@ -261,7 +261,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  position: absolute;
+  position: relative;
   width: 385px;
   height: 100px;
 }
@@ -281,26 +281,39 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
   font-size: 17px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section i {
-  position: relative;
-  top: 28px;
-  left: 180px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .target {
+  position: absolute;
+  bottom: 37px;
+  right: 30px;
   font-size: 30px;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .second-heart-position {
-  top: 30px;
-  left: 139px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
+  opacity: 100%;
+  -webkit-transition: opacity 3000ms;
+  transition: opacity 3000ms;
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .third-heart-position {
-  top: 31px;
-  left: 241px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
+  color: linear-gradient(163deg, #ff79da 33%, #9356dc 64%);
 }
 
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .fourth-heart-position {
-  top: 29px;
-  left: 200px;
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .outline {
+  opacity: 0;
+  -webkit-transition: opacity 3000ms;
+  transition: opacity 3000ms;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .solid {
+  opacity: 0;
+}
+
+.section-resturants-container .cards-container .resturants-cards .resturants-info-section .outline {
+  position: absolute;
+  bottom: 4px;
+  opacity: 100%;
+  -webkit-transition: opacity 3000ms;
+  transition: opacity 3000ms;
 }
 
 footer {

@@ -209,7 +209,7 @@ main {
                     flex-direction: row;
                     justify-content: flex-start;
                     align-items: flex-start;
-                    position: absolute;
+                    position: relative;
                     width: 385px;
                     height: 100px;
 
@@ -228,28 +228,62 @@ main {
                         }
                     }
 
-                    i {
-                        position: relative;
-                        top: 28px;   
-                        left: 180px;
+                    .target {
+                        position: absolute;
+                        bottom: 37px;
+                        right: 30px;
                         font-size: 30px;
                     }
 
-                    .second-heart-position {
-                        top: 30px;
-                        left: 139px;
+                    .target:hover .solid {
+                        opacity: 100%;
+                        // color: linear-gradient(163deg, rgba(255,121,218,1) 33%, rgba(147,86,220,1) 64%);
+                        transition: opacity 3000ms; 
                     }
 
-                    .third-heart-position {
-                        top: 31px;
-                        left: 241px;
+                    .target:hover .solid {
+                        color: linear-gradient(163deg, rgba(255,121,218,1) 33%, rgba(147,86,220,1) 64%);
                     }
 
-                    .fourth-heart-position {
-                        top: 29px;
-                        left: 200px;
+                    .target:hover .outline {
+                        opacity: 0;
+                        transition: opacity 3000ms; 
+                        }
+                    
+                    .solid {
+                        opacity: 0;
                     }
+
+                    .outline {
+                        position: absolute;
+                        bottom: 4px;
+                        opacity: 100%;
+                        transition: opacity 3000ms;
+                        }
                 }
+
+                //     i {
+                //         position: relative;
+                //         top: 28px;   
+                //         left: 180px;
+                //         font-size: 30px;
+                //     }
+
+                //     .second-heart-position {
+                //         top: 30px;
+                //         left: 139px;
+                //     }
+
+                //     .third-heart-position {
+                //         top: 31px;
+                //         left: 241px;
+                //     }
+
+                //     .fourth-heart-position {
+                //         top: 29px;
+                //         left: 200px;
+                //     }
+                // }
 
             }
 
