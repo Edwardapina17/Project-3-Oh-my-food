@@ -290,18 +290,17 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
   opacity: 100%;
-  -webkit-transition: opacity 3000ms;
-  transition: opacity 3000ms;
-}
-
-.section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
-  color: linear-gradient(163deg, #ff79da 33%, #9356dc 64%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
 }
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .outline {
   opacity: 0;
-  -webkit-transition: opacity 3000ms;
-  transition: opacity 3000ms;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
 }
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .solid {
@@ -312,8 +311,23 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
   position: absolute;
   bottom: 4px;
   opacity: 100%;
-  -webkit-transition: opacity 3000ms;
-  transition: opacity 3000ms;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
+}
+
+.section-resturants-container .cards-container .resturants-cards .second-heart-position {
+  top: 1px;
+  left: 0px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .third-heart-position {
+  top: 4px;
+  left: 0px;
+}
+
+.section-resturants-container .cards-container .resturants-cards .fourth-heart-position {
+  top: 0px;
+  left: 0px;
 }
 
 footer {
