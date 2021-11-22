@@ -572,9 +572,41 @@ footer {
         i {
             font-size: 25px;
             position: relative;
-            left: 220px;
-            top: 10px;
+            // left: 0px;
+            // top: 10px;
         }
+
+        .target {
+            position: absolute;
+            bottom: 5px;
+            right: 30px;
+            font-size: 30px;
+        }
+
+        .target:hover .solid {
+            opacity: 100%;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,121,218,1) ), to(rgba(147,86,220,1)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: opacity 10ms; 
+        }
+
+
+        .target:hover .outline {
+            opacity: 0;
+            transition: opacity 10ms; 
+            }
+
+        .solid {
+            opacity: 0;
+        }
+
+        .outline {
+            position: absolute;
+            bottom: 4px;
+            opacity: 100%;
+            transition: opacity 10ms;
+            }
 
     }
 
@@ -600,41 +632,71 @@ footer {
         }
 
         .bastille-entrees-container {
+            display: flex;
             width: 385px;
             border-radius: 15px;
             background-color: white;
             margin-bottom: 13px;
             box-shadow: 0 4px 14px -6px #545454;
+            overflow: hidden;
+            white-space: nowrap;
             position: relative;
 
-            h3 {
+            .bastille-entrees-name {
+                width: 338px;
+                h3 {
                 margin: 11px 11px 4px 11px;
-            }
+                }
 
-            p {
-                margin: 0px 10px 10px 10px;
-                font-size: 15px;
+                p {
+                    margin: 0px 10px 10px 10px;
+                    font-size: 15px;
+                }
             }
-            
 
             .bastille-entrees-price {
-                position: absolute;
-                top: 40px;
-                left: 330px;
+                flex: none;
+                p {
+                    margin-top: 38px;
+                    margin-bottom: 0px;
+                    font-size: 15px;
+                }
             }
 
-            .gourmand-entrees-price {
-                position: absolute;
-                top: 64px;
-                left: 330px;
+            .bastille-entrees-check {
+                flex: none;
+                width: 70px;
+                background-color: green;
             }
+
+            // h3 {
+            //     margin: 11px 11px 4px 11px;
+            // }
+
+            // p {
+            //     margin: 0px 10px 10px 10px;
+            //     font-size: 15px;
+            // }
+            
+
+            // .bastille-entrees-price {
+            //     position: absolute;
+            //     top: 40px;
+            //     left: 330px;
+            // }
+
+            // .gourmand-entrees-price {
+            //     position: absolute;
+            //     top: 64px;
+            //     left: 330px;
+            // }
         }
 
-        .bastille-entrees-container:hover {
-            background-color: rgb(144, 223, 192);;
-            margin-left: 0;
-            transition: right 1000ms ease-out;
-        }
+        // .bastille-entrees-container:hover {
+        //     background-color: rgb(144, 223, 192);;
+        //     margin-left: 0;
+        //     transition: right 1000ms ease-out;
+        // }
 
         button {
                 margin: 27px 0px 76px 72px;

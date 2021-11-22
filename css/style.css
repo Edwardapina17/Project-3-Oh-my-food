@@ -592,8 +592,40 @@ footer .footer-li-container {
 .bastille-main .bastille-main-title i {
   font-size: 25px;
   position: relative;
-  left: 220px;
-  top: 10px;
+}
+
+.bastille-main .bastille-main-title .target {
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+  font-size: 30px;
+}
+
+.bastille-main .bastille-main-title .target:hover .solid {
+  opacity: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
+}
+
+.bastille-main .bastille-main-title .target:hover .outline {
+  opacity: 0;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
+}
+
+.bastille-main .bastille-main-title .solid {
+  opacity: 0;
+}
+
+.bastille-main .bastille-main-title .outline {
+  position: absolute;
+  bottom: 4px;
+  opacity: 100%;
+  -webkit-transition: opacity 10ms;
+  transition: opacity 10ms;
 }
 
 .bastille-main .bastille-menu-container {
@@ -628,41 +660,51 @@ footer .footer-li-container {
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 385px;
   border-radius: 15px;
   background-color: white;
   margin-bottom: 13px;
   -webkit-box-shadow: 0 4px 14px -6px #545454;
           box-shadow: 0 4px 14px -6px #545454;
+  overflow: hidden;
+  white-space: nowrap;
   position: relative;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container h3 {
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+  width: 338px;
+}
+
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name h3 {
   margin: 11px 11px 4px 11px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container p {
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name p {
   margin: 0px 10px 10px 10px;
   font-size: 15px;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price {
-  position: absolute;
-  top: 40px;
-  left: 330px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .gourmand-entrees-price {
-  position: absolute;
-  top: 64px;
-  left: 330px;
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price p {
+  margin-top: 38px;
+  margin-bottom: 0px;
+  font-size: 15px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container:hover {
-  background-color: #90dfc0;
-  margin-left: 0;
-  -webkit-transition: right 1000ms ease-out;
-  transition: right 1000ms ease-out;
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 70px;
+  background-color: green;
 }
 
 .bastille-main .bastille-menu-container button {
