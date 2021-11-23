@@ -644,6 +644,7 @@ footer {
 
             .bastille-entrees-name {
                 width: 338px;
+                flex: none;
                 h3 {
                 margin: 11px 11px 4px 11px;
                 }
@@ -656,6 +657,8 @@ footer {
 
             .bastille-entrees-price {
                 flex: none;
+                width: 47px;
+
                 p {
                     margin-top: 38px;
                     margin-bottom: 0px;
@@ -664,9 +667,17 @@ footer {
             }
 
             .bastille-entrees-check {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 flex: none;
                 width: 70px;
-                background-color: green;
+                background-color: rgb(108, 219, 175);
+
+                i {
+                    color: white;
+                    font-size: 25px;
+                }
             }
 
             // h3 {
@@ -690,6 +701,17 @@ footer {
             //     top: 64px;
             //     left: 330px;
             // }
+        }
+
+        // Hover effect for container
+        .bastille-entrees-container:hover .bastille-entrees-name {
+            width: 70%;
+            transition: width 350ms ease-in;
+        }
+
+        .bastille-entrees-container:hover .fa-check-circle {
+            transform: rotate(-360deg);
+            transition: transform 550ms ease-in;
         }
 
         // .bastille-entrees-container:hover {

@@ -676,6 +676,9 @@ footer .footer-li-container {
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
   width: 338px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name h3 {
@@ -691,6 +694,7 @@ footer .footer-li-container {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
+  width: 47px;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price p {
@@ -700,11 +704,40 @@ footer .footer-li-container {
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
   width: 70px;
-  background-color: green;
+  background-color: #6cdbaf;
+}
+
+.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
+  color: white;
+  font-size: 25px;
+}
+
+.bastille-main .bastille-menu-container .bastille-entrees-container:hover .bastille-entrees-name {
+  width: 70%;
+  -webkit-transition: width 350ms ease-in;
+  transition: width 350ms ease-in;
+}
+
+.bastille-main .bastille-menu-container .bastille-entrees-container:hover .fa-check-circle {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition: -webkit-transform 550ms ease-in;
+  transition: -webkit-transform 550ms ease-in;
+  transition: transform 550ms ease-in;
+  transition: transform 550ms ease-in, -webkit-transform 550ms ease-in;
 }
 
 .bastille-main .bastille-menu-container button {
