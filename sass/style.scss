@@ -679,28 +679,6 @@ footer {
                     font-size: 25px;
                 }
             }
-
-            // h3 {
-            //     margin: 11px 11px 4px 11px;
-            // }
-
-            // p {
-            //     margin: 0px 10px 10px 10px;
-            //     font-size: 15px;
-            // }
-            
-
-            // .bastille-entrees-price {
-            //     position: absolute;
-            //     top: 40px;
-            //     left: 330px;
-            // }
-
-            // .gourmand-entrees-price {
-            //     position: absolute;
-            //     top: 64px;
-            //     left: 330px;
-            // }
         }
 
         // Hover effect for container
@@ -713,12 +691,6 @@ footer {
             transform: rotate(-360deg);
             transition: transform 550ms ease-in;
         }
-
-        // .bastille-entrees-container:hover {
-        //     background-color: rgb(144, 223, 192);;
-        //     margin-left: 0;
-        //     transition: right 1000ms ease-out;
-        // }
 
         button {
                 margin: 27px 0px 76px 72px;
@@ -749,13 +721,18 @@ footer {
     height: 1376px;
 }
 
+// TABLET
 @media only screen and (min-width: 768px) {
     .bastille-header {
-        width: 605px;
+        width: 768px;
 
         .bastille-span {
             i {
-                margin: 0px 236px 0px 23px;
+                margin: 0px 201px 0px 35px;
+            }
+
+            img {
+                margin-right: 228px;
             }
         }
     }
@@ -763,78 +740,43 @@ footer {
     .bastille-main {
         width: 768px;
 
-
         .bastille-img-container {
             width: 768px;
-            height: 303px;
-
+    
             img {
-                width: 768px;
+                width: 780px;
+                height: 340px;
             }
         }
 
         .bastille-food-container {
+            top: 330px;
+        }
+
+        .bastille-main-title {
+            width: 780px;
+        }
+
+        .bastille-menu-container {
             width: 768px;
-            top: 479px;
 
-            .bastille-main-title {
-                width: 768px;
-
-                i {
-                    font-size: 35px;
-                    left: 558px;
-                    top: 16px;
-                }
-
-                p {
-                    font-size: 32px;
-                    left: 558px;
-                    top: 15px;
-                    margin-bottom: -12px;
-                }
-            }
-
-            .bastille-menu-container {
-                width: 768px;
-
-                p {
-                    font-size: 24px;
-                }
-
-                button {
-                    margin: 27px 0px 76px 251px;
-                    height: 74px;
-                    font-size: 24px;
-                }
-
-                .bastille-entrees-container {
-                    width: 737px;
-
-                    h3 {
-                        font-size: 25px;
-                    }
-
-                    p {
-                        font-size: 25px;
-                    }
-
-                    .bastille-entrees-price {
-                        top: 50px;
-                        left: 671px;
-                        font-size: 24px;
-                    }
-                }
+            .bastille-entrees-container {
+                width: 741px;
             }
         }
-        }
-
-    .enchanted-main {
-        width: 768px;
     }
 
-    footer {
-        margin-top: 450px;
-        width: 768px;
-    }
+    //     .bastille-entrees-container:hover .bastille-entrees-name {
+    //         width: 100%;
+    //     }
+
+    // .enchanted-main {
+    //     width: 768px;
+    // }
+
+    // footer {
+    //     margin-top: 19px;
+    //     width: 768px;
+    // }
 }
 
