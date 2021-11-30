@@ -682,6 +682,14 @@ footer {
         }
 
         // Hover effect for container
+        // .bastille-entrees-container .bastille-entrees-name {
+        //     transition: width 350ms ease-out;
+        // }
+
+        // .bastille-entrees-container .fa-check-circle {
+        //     transform: rotate(1440deg);
+        //     transition: transform 1000ms ease-in;
+        // }
         .bastille-entrees-container:hover .bastille-entrees-name {
             width: 70%;
             transition: width 350ms ease-in;
@@ -689,7 +697,7 @@ footer {
 
         .bastille-entrees-container:hover .fa-check-circle {
             transform: rotate(-360deg);
-            transition: transform 550ms ease-in;
+            transition: transform 750ms ease-in;
         }
 
         button {
@@ -759,24 +767,31 @@ footer {
 
         .bastille-menu-container {
             width: 768px;
+            padding-left: 12px;
+
+            button {
+                margin: 27px 0px 82px 263px;
+            }
 
             .bastille-entrees-container {
                 width: 741px;
+
+                .bastille-entrees-name {
+                    width: 694px;
+                }
+
+                .bastille-entrees-check {
+                    width: 176px;
+
+                    i {
+                        font-size: 25px;
+                    }
+                }
             }
         }
     }
-
-    //     .bastille-entrees-container:hover .bastille-entrees-name {
-    //         width: 100%;
-    //     }
-
-    // .enchanted-main {
-    //     width: 768px;
-    // }
-
-    // footer {
-    //     margin-top: 19px;
-    //     width: 768px;
-    // }
+    .ipad-footer {
+        width: 780px;
+        margin-top: 51px;
+    }
 }
-
