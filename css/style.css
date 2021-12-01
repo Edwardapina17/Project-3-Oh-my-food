@@ -817,4 +817,69 @@ footer .footer-li-container {
     margin-top: 51px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .bastille-header {
+    width: 1425px;
+    height: 100px;
+  }
+  .bastille-header .bastille-span img {
+    width: 200px;
+    height: 36px;
+  }
+  .bastille-main {
+    width: 1425px;
+  }
+  .bastille-main .bastille-img-container {
+    width: 1425px;
+  }
+  .bastille-main .bastille-img-container img {
+    width: 1425px;
+    height: 440px;
+  }
+  .bastille-main .bastille-food-container {
+    top: 440px;
+  }
+  .bastille-main .bastille-main-title {
+    width: 1425px;
+  }
+  .bastille-main .bastille-menu-container {
+    width: 1413px;
+    padding-left: 12px;
+  }
+  .bastille-main .bastille-menu-container button {
+    margin: 27px 0px 87px 533px;
+    width: 287px;
+    height: 100px;
+  }
+  .bastille-main .bastille-menu-container .bastille-entrees-container {
+    width: 1390px;
+  }
+  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+    width: 1360px;
+  }
+  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+    width: 676px;
+  }
+  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
+    font-size: 25px;
+  }
+  .desktop-footer {
+    width: 1425px;
+    margin-top: 186px;
+  }
+  .bastille-entrees-container:active .bastille-entrees-name {
+    width: 70%;
+    -webkit-transition: width 350ms ease-in;
+    transition: width 350ms ease-in;
+  }
+  .bastille-entrees-container:active .fa-check-circle {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    -webkit-transition: -webkit-transform 750ms ease-in;
+    transition: -webkit-transform 750ms ease-in;
+    transition: transform 750ms ease-in;
+    transition: transform 750ms ease-in, -webkit-transform 750ms ease-in;
+  }
+}
 /*# sourceMappingURL=style.css.map */

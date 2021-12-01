@@ -795,3 +795,79 @@ footer {
         margin-top: 51px;
     }
 }
+
+@media only screen and (min-width: 1200px){
+    .bastille-header {
+        width: 1425px;
+        height: 100px;
+
+        .bastille-span {
+
+            img {
+                width: 200px;
+                height: 36px;
+            }
+        }
+    }
+
+    .bastille-main {
+        width: 1425px;
+
+        .bastille-img-container {
+            width: 1425px;
+    
+            img {
+                width: 1425px;
+                height: 440px;
+            }
+        }
+
+        .bastille-food-container {
+            top: 440px;
+        }
+
+        .bastille-main-title {
+            width: 1425px;
+        }
+
+        .bastille-menu-container {
+            width: 1413px;
+            padding-left: 12px;
+
+            button {
+                margin: 27px 0px 87px 533px;
+                width: 287px;
+                height: 100px;
+            }
+
+            .bastille-entrees-container {
+                width: 1390px;
+
+                .bastille-entrees-name {
+                    width: 1360px;
+                }
+
+                .bastille-entrees-check {
+                    width: 676px;
+
+                    i {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .desktop-footer {
+        width: 1425px;
+        margin-top: 186px;
+    }
+    .bastille-entrees-container:active .bastille-entrees-name {
+        width: 70%;
+        transition: width 350ms ease-in;
+    }
+
+    .bastille-entrees-container:active .fa-check-circle {
+        transform: rotate(-360deg);
+        transition: transform 750ms ease-in;
+    }
+}
