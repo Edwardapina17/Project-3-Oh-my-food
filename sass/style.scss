@@ -217,6 +217,9 @@ main {
             }
 
             .resturants-cards {
+                display: block;
+                text-decoration: none;
+                color:black;
                 background-color: white;
                 border-radius: 15px;
                 width: 375px;
@@ -561,6 +564,11 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
         
         i {
             font-size: 22px;
@@ -687,8 +695,18 @@ footer {
             overflow: hidden;
             white-space: nowrap;
             position: relative;
+            
+            // .bastille-entrees-container .bastille-entrees-name {
+        //     transition: width 350ms ease-out;
+        // }
+
+        .fa-check-circle {
+            transform: rotate(1440deg);
+            transition: transform 1000ms ease-in;
+        }
 
             .bastille-entrees-name {
+                transition: width 350ms ease-out;
                 width: 338px;
                 flex: none;
                 h3 {

@@ -323,6 +323,9 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
 }
 
 .section-resturants-container .cards-container .resturants-cards {
+  display: block;
+  text-decoration: none;
+  color: black;
   background-color: white;
   border-radius: 15px;
   width: 375px;
@@ -636,6 +639,11 @@ footer .footer-li-container {
           justify-content: flex-start;
 }
 
+.bastille-header .bastille-span a {
+  text-decoration: none;
+  color: black;
+}
+
 .bastille-header .bastille-span i {
   font-size: 22px;
   margin: 0px 62px 0px 23px;
@@ -784,7 +792,18 @@ footer .footer-li-container {
   position: relative;
 }
 
+.bastille-main .bastille-menu-container .bastille-entrees-container .fa-check-circle {
+  -webkit-transform: rotate(1440deg);
+          transform: rotate(1440deg);
+  -webkit-transition: -webkit-transform 1000ms ease-in;
+  transition: -webkit-transform 1000ms ease-in;
+  transition: transform 1000ms ease-in;
+  transition: transform 1000ms ease-in, -webkit-transform 1000ms ease-in;
+}
+
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+  -webkit-transition: width 350ms ease-out;
+  transition: width 350ms ease-out;
   width: 338px;
   -webkit-box-flex: 0;
       -ms-flex: none;

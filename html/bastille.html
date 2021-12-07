@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Enchanted Plate Menu</title>
+    <title>Bastille Menu</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,25 +18,40 @@
 </head>
 <body>
 
+    <!-- <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="top-bar"></div>
+            <div class="bottom-bar"></div>
+        </div>
+    </div> -->
+
+    <script>
+        $(window).on("load",function(){
+            $(".spinner-wrapper").fadeOut("slow")
+        })
+    </script>
+
     <header class="bastille-header">
 
         <span class="bastille-span">
-            <i class="fas fa-arrow-left"></i>
+            <a href="index.html">
+                <i class="fas fa-arrow-left"></i>
+            </a>
             <img src="../images/logo/ohmyfood.png" alt="ohmyfood logo">
         </span>
 
     </header>
 
-    <main class="bastille-main enchanted-main">
+    <main class="bastille-main">
 
         <div class="bastille-img-container">
-            <img src="../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
+            <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="food from restaurant">
         </div>
 
         <div class="bastille-food-container">
 
             <div class="bastille-main-title">
-                <p class="enchanted-container">The Enchanted Plate</p>
+                <p>Bastille</p>
                 <span class="target">
                     <i class="far fa-heart outline"></i>
                     <i class="fas fa-heart solid"></i>
@@ -48,8 +63,8 @@
                 <p class="word-green-line">ENTRESS</p>
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Foie Gras Ravioli</h3>
-                        <p>with truffle cream</p>
+                        <h3>Citrus Squid Carpaccio</h3>
+                        <p>with orange zest</p>
                     </div>
                     <div class="bastille-entrees-price">
                         <p><b>25€</b></p>
@@ -57,15 +72,16 @@
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
                     </div>
+                    
                 </div>
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Oscietra Caviar</h3>
-                        <p>with buckwheat blinis</p>
+                        <h3>Grandmother's vegetable soup</h3>
+                        <p>Carrots, parsnips, Jerusalem artichoke</p>
                     </div>
                     <div class="bastille-entrees-price">
-                        <p><b>35€</b></p>
+                        <p class="bastille-entrees-price"><b>35€</b></p>
                     </div>
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
@@ -74,24 +90,11 @@
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Lobster and Leek Foam</h3>
-                        <p>Marinated with orange zest</p>
+                        <h3>Onion Soup</h3>
+                        <p>Revisted</p>
                     </div>
                     <div class="bastille-entrees-price">
                         <p><b>20€</b></p>
-                    </div>
-                    <div class="bastille-entrees-check">
-                        <i class="fas fa-check-circle"></i>
-                    </div>
-                </div>
-
-                <div class="bastille-entrees-container">
-                    <div class="bastille-entrees-name">
-                        <h3>Duck Foie Gras</h3>
-                        <p>with fig jam and grilled baguette</p>
-                    </div>
-                    <div class="bastille-entrees-price">
-                        <p><b>35€</b></p>
                     </div>
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
@@ -105,11 +108,11 @@
                 <p class="word-green-line">MAIN DISH</p>
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Fresh Buttered Scallops</h3>
-                        <p>with white celery puree</p>
+                        <h3>Scallops</h3>
+                        <p>with mashed parsnips</p>
                     </div>
                     <div class="bastille-entrees-price">
-                        <p><b>40€</b></p>
+                        <p><b>25€</b></p>
                     </div>
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
@@ -118,8 +121,8 @@
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Pan-Fried Lobster</h3>
-                        <p>with mashed sweet potatoes</p>
+                        <h3>Margret de canard</h3>
+                        <p>with mashed potatoes</p>
                     </div>
                     <div class="bastille-entrees-price">
                         <p><b>35€</b></p>
@@ -131,11 +134,11 @@
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Braised Ox Tail</h3>
-                        <p>with wild rice and lemon zest</p>
+                        <h3>Game Hen</h3>
+                        <p>with vegetable gnocchis</p>
                     </div>
                     <div class="bastille-entrees-price">
-                        <p><b>44€</b></p>
+                        <p><b>20€</b></p>
                     </div>
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
@@ -149,8 +152,8 @@
                 <p class="word-green-line">DESSERTS</p>
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Chocolate and Hazelnut Macaroons</h3>
-                        <p>with caramel butter ice cream</p>
+                        <h3>Floral Ice cream</h3>
+                        <p>with hazelnut butter</p>                    
                     </div>
                     <div class="bastille-entrees-price">
                         <p><b>18€</b></p>
@@ -162,8 +165,8 @@
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Baba au rhum</h3>
-                        <p>with lemon drizzle</p>
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Revisited</p>                    
                     </div>
                     <div class="bastille-entrees-price">
                         <p><b>22€</b></p>
@@ -175,11 +178,11 @@
 
                 <div class="bastille-entrees-container">
                     <div class="bastille-entrees-name">
-                        <h3>Lemon Meringue Pie</h3>
-                        <p>Destrusctured</p>
+                        <h3>Napolean</h3>
+                        <p>with blueberries and marzipan</p>                    
                     </div>
                     <div class="bastille-entrees-price">
-                        <p><b>23€</b></p>
+                        <p><b>20€</b></p>
                     </div>
                     <div class="bastille-entrees-check">
                         <i class="fas fa-check-circle"></i>
@@ -193,7 +196,7 @@
 
     </main>
 
-    <footer class="ipad-footer">
+    <footer class="ipad-footer desktop-footer">
 
         <ul>
 
