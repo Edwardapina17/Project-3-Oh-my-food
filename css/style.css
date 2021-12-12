@@ -1,20 +1,31 @@
 body {
   margin: 0px;
+  position: absolute;
 }
 
-.spinner-wrapper .spinner {
+.spinner {
   margin: 200px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 100px;
-  height: 100px;
+  width: 100vw;
+  height: 100vh;
+  background: salmon;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
+  -webkit-animation: disappear 5s linear forwards;
+          animation: disappear 5s linear forwards;
 }
 
-.spinner-wrapper .spinner .top-bar {
+.spinner .top-bar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -27,7 +38,7 @@ body {
           animation: spinnerone 1.2s linear infinite;
 }
 
-.spinner-wrapper .spinner .bottom-bar {
+.spinner .bottom-bar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -40,7 +51,39 @@ body {
           animation: spinnertwo 1.2s linear infinite;
 }
 
+@-webkit-keyframes disappear {
+  0% {
+    z-index: 10;
+    opacity: 1;
+  }
+  95% {
+    z-index: 2;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    z-index: 10;
+    opacity: 1;
+  }
+  95% {
+    z-index: 2;
+  }
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+
 @-webkit-keyframes spinnerone {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -59,6 +102,10 @@ body {
 }
 
 @keyframes spinnerone {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -77,6 +124,10 @@ body {
 }
 
 @-webkit-keyframes spinnertwo {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -95,6 +146,10 @@ body {
 }
 
 @keyframes spinnertwo {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -403,7 +458,9 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
   opacity: 100%;
+  background-color: #ff79da;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: opacity 10ms;
@@ -722,6 +779,7 @@ footer .footer-li-container {
 .bastille-main .bastille-main-title .target:hover .solid {
   opacity: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: opacity 10ms;

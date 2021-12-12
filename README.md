@@ -1,1 +1,1 @@
-https://github.com/Edwardapina17/Project-3-Oh-my-food.git
+https://edwardapina17.github.io/Project-3-Oh-my-food/
