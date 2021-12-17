@@ -39,7 +39,7 @@ body {
   width: 50vw;
   height: 50vw;
   border: 8px solid transparent;
-  border-top-color: #ff79da;
+  border-top-color: #FF79DA;
   border-radius: 50%;
   -webkit-animation: spinnerone 1.2s linear infinite;
           animation: spinnerone 1.2s linear infinite;
@@ -52,7 +52,7 @@ body {
   width: 50vw;
   height: 50vw;
   border: 8px solid transparent;
-  border-top-color: #9356dc;
+  border-top-color: #9356DC;
   border-radius: 50%;
   -webkit-animation: spinnertwo 1.2s linear infinite;
           animation: spinnertwo 1.2s linear infinite;
@@ -265,7 +265,7 @@ header .header-info-container button {
   font-weight: bold;
   border: none;
   color: white;
-  background-image: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
+  background-image: linear-gradient(163deg, #FF79DA 0%, #9356DC 100%);
 }
 
 main {
@@ -313,7 +313,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards .howitw
   margin-left: -156px;
   display: inline-block;
   color: white;
-  background-color: #9356dc;
+  background-color: #9356DC;
 }
 
 main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-choose {
@@ -336,7 +336,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards i {
 }
 
 main .main-container-mobile .howitworks-card-container .howitworks-cards .fa-store {
-  color: #9356dc;
+  color: #9356DC;
 }
 
 main .main-container-mobile .howitworks-card-container .howitworks-cards .howitworks-margin {
@@ -419,7 +419,7 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
   border-radius: 2px;
   text-align: center;
   color: #388d6d;
-  background-color: #90dfc0;
+  background-color: #99E2D0;
 }
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section {
@@ -465,8 +465,8 @@ main .main-container-mobile .howitworks-card-container .howitworks-cards-purple 
 
 .section-resturants-container .cards-container .resturants-cards .resturants-info-section .target:hover .solid {
   opacity: 100%;
-  background-color: #ff79da;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-color: #FF79DA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -581,6 +581,10 @@ footer .footer-li-container {
 }
 
 @media only screen and (min-width: 768px) {
+  .spinner {
+    width: 768px;
+    height: 2555px;
+  }
   header .header-logo-container img {
     height: 77px;
     width: 365px;
@@ -659,6 +663,10 @@ footer .footer-li-container {
 }
 
 @media only screen and (min-width: 1200px) {
+  .spinner {
+    width: 1425px;
+    height: 2658px;
+  }
   header .header-icon-container {
     width: 1425px;
   }
@@ -785,7 +793,7 @@ footer .footer-li-container {
 
 .bastille-main .bastille-main-title .target:hover .solid {
   opacity: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -837,7 +845,7 @@ footer .footer-li-container {
 
 .bastille-main .bastille-menu-container .word-green-line {
   white-space: nowrap;
-  border-bottom: 3px solid #90dfc0;
+  border-bottom: 3px solid #99E2D0;
   padding-bottom: 6px;
   width: 10%;
 }
@@ -911,7 +919,7 @@ footer .footer-li-container {
       -ms-flex: none;
           flex: none;
   width: 70px;
-  background-color: #6cdbaf;
+  background-color: #99E2D0;
 }
 
 .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
@@ -943,7 +951,7 @@ footer .footer-li-container {
   font-weight: bold;
   border: none;
   color: white;
-  background-image: linear-gradient(163deg, #ff79da 0%, #9356dc 100%);
+  background-image: linear-gradient(163deg, #FF79DA 0%, #9356DC 100%);
 }
 
 .enchanted-main {
