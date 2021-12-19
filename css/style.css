@@ -268,6 +268,10 @@ header .header-info-container button {
   background-image: linear-gradient(163deg, #FF79DA 0%, #9356DC 100%);
 }
 
+header .header-info-container button:hover {
+  background-image: linear-gradient(163deg, #99E2D0 25%, #9356DC 100%);
+}
+
 main {
   font-family: 'Roboto', sans-serif;
 }
@@ -580,6 +584,30 @@ footer .footer-li-container {
           align-items: flex-start;
 }
 
+.email-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f1f1;
+  height: 664px;
+}
+
+.email-main .email-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.email-main p:hover {
+  background-image: linear-gradient(163deg, #FF79DA 0%, #9356DC 100%);
+  border-radius: 5px;
+}
+
 @media only screen and (min-width: 768px) {
   .spinner {
     width: 768px;
@@ -690,12 +718,12 @@ footer .footer-li-container {
   }
 }
 
-.bastille-header {
+.header-resturants {
   width: 414px;
   height: 72px;
 }
 
-.bastille-header .bastille-span {
+.header-resturants .span-resturants {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -711,17 +739,17 @@ footer .footer-li-container {
           justify-content: flex-start;
 }
 
-.bastille-header .bastille-span a {
+.header-resturants .span-resturants a {
   text-decoration: none;
   color: black;
 }
 
-.bastille-header .bastille-span i {
+.header-resturants .span-resturants i {
   font-size: 22px;
   margin: 0px 62px 0px 23px;
 }
 
-.bastille-header .bastille-span img {
+.header-resturants .span-resturants img {
   width: 200px;
   height: 36px;
   margin-top: 25px;
@@ -729,25 +757,25 @@ footer .footer-li-container {
   margin-right: 100px;
 }
 
-.bastille-main {
+.main-resturants {
   width: 414px;
   height: 1353px;
 }
 
-.bastille-main .bastille-img-container {
+.main-resturants .img-resturant-container {
   position: relative;
 }
 
-.bastille-main .bastille-img-container img {
+.main-resturants .img-resturant-container img {
   width: 414px;
 }
 
-.bastille-main .bastille-food-container {
+.main-resturants .food-resturant-container {
   position: absolute;
   top: 293px;
 }
 
-.bastille-main .bastille-main-title {
+.main-resturants .main-resturant-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -767,31 +795,31 @@ footer .footer-li-container {
   width: 414px;
 }
 
-.bastille-main .bastille-main-title .enchanted-container {
+.main-resturants .main-resturant-title .enchanted-container {
   width: 121px;
   white-space: nowrap;
 }
 
-.bastille-main .bastille-main-title p {
+.main-resturants .main-resturant-title p {
   font-size: 28px;
   font-family: 'Shrikhand', cursive;
   margin-left: 15px;
   margin-bottom: 5px;
 }
 
-.bastille-main .bastille-main-title i {
+.main-resturants .main-resturant-title i {
   font-size: 25px;
   position: relative;
 }
 
-.bastille-main .bastille-main-title .target {
+.main-resturants .main-resturant-title .target {
   position: absolute;
   bottom: 10px;
   right: 30px;
   font-size: 30px;
 }
 
-.bastille-main .bastille-main-title .target:hover .solid {
+.main-resturants .main-resturant-title .target:hover .solid {
   opacity: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-clip: text;
@@ -801,17 +829,17 @@ footer .footer-li-container {
   transition: opacity 10ms;
 }
 
-.bastille-main .bastille-main-title .target:hover .outline {
+.main-resturants .main-resturant-title .target:hover .outline {
   opacity: 0;
   -webkit-transition: opacity 10ms;
   transition: opacity 10ms;
 }
 
-.bastille-main .bastille-main-title .solid {
+.main-resturants .main-resturant-title .solid {
   opacity: 0;
 }
 
-.bastille-main .bastille-main-title .outline {
+.main-resturants .main-resturant-title .outline {
   position: absolute;
   bottom: 4px;
   opacity: 100%;
@@ -819,7 +847,7 @@ footer .footer-li-container {
   transition: opacity 10ms;
 }
 
-.bastille-main .bastille-menu-container {
+.main-resturants .menu-resturant-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -839,18 +867,18 @@ footer .footer-li-container {
   padding-left: 13px;
 }
 
-.bastille-main .bastille-menu-container p {
+.main-resturants .menu-resturant-container p {
   font-size: 18px;
 }
 
-.bastille-main .bastille-menu-container .word-green-line {
+.main-resturants .menu-resturant-container .word-green-line {
   white-space: nowrap;
   border-bottom: 3px solid #99E2D0;
   padding-bottom: 6px;
   width: 10%;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container {
+.main-resturants .menu-resturant-container .entrees-resturant-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,9 +891,11 @@ footer .footer-li-container {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
+  -webkit-animation: fade-in ease 7s;
+          animation: fade-in ease 7s;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .fa-check-circle {
+.main-resturants .menu-resturant-container .entrees-resturant-container .fa-check-circle {
   -webkit-transform: rotate(1440deg);
           transform: rotate(1440deg);
   -webkit-transition: -webkit-transform 1000ms ease-in;
@@ -874,7 +904,7 @@ footer .footer-li-container {
   transition: transform 1000ms ease-in, -webkit-transform 1000ms ease-in;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name {
   -webkit-transition: width 350ms ease-out;
   transition: width 350ms ease-out;
   width: 338px;
@@ -883,29 +913,57 @@ footer .footer-li-container {
           flex: none;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name h3 {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name h3 {
   margin: 11px 11px 4px 11px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name p {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name p {
   margin: 0px 10px 10px 10px;
   font-size: 15px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name .target_description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  95% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  95% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-price {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
   width: 47px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-price p {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-price p {
   margin-top: 38px;
   margin-bottom: 0px;
   font-size: 15px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -922,18 +980,18 @@ footer .footer-li-container {
   background-color: #99E2D0;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
+.main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check i {
   color: white;
   font-size: 25px;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container:hover .bastille-entrees-name {
+.main-resturants .menu-resturant-container .entrees-resturant-container:hover .entrees-resturant-name {
   width: 70%;
   -webkit-transition: width 350ms ease-in;
   transition: width 350ms ease-in;
 }
 
-.bastille-main .bastille-menu-container .bastille-entrees-container:hover .fa-check-circle {
+.main-resturants .menu-resturant-container .entrees-resturant-container:hover .fa-check-circle {
   -webkit-transform: rotate(-360deg);
           transform: rotate(-360deg);
   -webkit-transition: -webkit-transform 750ms ease-in;
@@ -942,7 +1000,7 @@ footer .footer-li-container {
   transition: transform 750ms ease-in, -webkit-transform 750ms ease-in;
 }
 
-.bastille-main .bastille-menu-container button {
+.main-resturants .menu-resturant-container button {
   margin: 27px 0px 76px 72px;
   border-radius: 50px;
   width: 236px;
@@ -952,6 +1010,10 @@ footer .footer-li-container {
   border: none;
   color: white;
   background-image: linear-gradient(163deg, #FF79DA 0%, #9356DC 100%);
+}
+
+.main-resturants .menu-resturant-container button:hover {
+  background-image: linear-gradient(163deg, #99E2D0 25%, #9356DC 100%);
 }
 
 .enchanted-main {
@@ -970,48 +1032,48 @@ footer .footer-li-container {
 }
 
 @media only screen and (min-width: 768px) {
-  .bastille-header {
+  .header-resturants {
     width: 768px;
   }
-  .bastille-header .bastille-span i {
+  .header-resturants .span-resturants i {
     margin: 0px 201px 0px 35px;
   }
-  .bastille-header .bastille-span img {
+  .header-resturants .span-resturants img {
     margin-right: 228px;
   }
-  .bastille-main {
+  .main-resturants {
     width: 768px;
   }
-  .bastille-main .bastille-img-container {
+  .main-resturants .img-resturant-container {
     width: 768px;
   }
-  .bastille-main .bastille-img-container img {
+  .main-resturants .img-resturant-container img {
     width: 780px;
     height: 340px;
   }
-  .bastille-main .bastille-food-container {
+  .main-resturants .food-resturant-container {
     top: 330px;
   }
-  .bastille-main .bastille-main-title {
+  .main-resturants .main-resturant-title {
     width: 780px;
   }
-  .bastille-main .bastille-menu-container {
+  .main-resturants .menu-resturant-container {
     width: 768px;
     padding-left: 12px;
   }
-  .bastille-main .bastille-menu-container button {
+  .main-resturants .menu-resturant-container button {
     margin: 27px 0px 82px 263px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container {
+  .main-resturants .menu-resturant-container .entrees-resturant-container {
     width: 741px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name {
     width: 694px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check {
     width: 176px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check i {
     font-size: 25px;
   }
   .ipad-footer {
@@ -1021,61 +1083,61 @@ footer .footer-li-container {
 }
 
 @media only screen and (min-width: 1200px) {
-  .bastille-header {
+  .header-resturants {
     width: 1425px;
     height: 100px;
   }
-  .bastille-header .bastille-span img {
+  .header-resturants .span-resturants img {
     width: 200px;
     height: 36px;
   }
-  .bastille-main {
+  .main-resturants {
     width: 1425px;
   }
-  .bastille-main .bastille-img-container {
+  .main-resturants .img-resturant-container {
     width: 1425px;
   }
-  .bastille-main .bastille-img-container img {
+  .main-resturants .img-resturant-container img {
     width: 1425px;
     height: 440px;
   }
-  .bastille-main .bastille-food-container {
+  .main-resturants .food-resturant-container {
     top: 440px;
   }
-  .bastille-main .bastille-main-title {
+  .main-resturants .main-resturant-title {
     width: 1425px;
   }
-  .bastille-main .bastille-menu-container {
+  .main-resturants .menu-resturant-container {
     width: 1413px;
     padding-left: 12px;
   }
-  .bastille-main .bastille-menu-container button {
+  .main-resturants .menu-resturant-container button {
     margin: 27px 0px 87px 533px;
     width: 287px;
     height: 100px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container {
+  .main-resturants .menu-resturant-container .entrees-resturant-container {
     width: 1390px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-name {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-name {
     width: 1360px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check {
     width: 676px;
   }
-  .bastille-main .bastille-menu-container .bastille-entrees-container .bastille-entrees-check i {
+  .main-resturants .menu-resturant-container .entrees-resturant-container .entrees-resturant-check i {
     font-size: 25px;
   }
   .desktop-footer {
     width: 1425px;
-    margin-top: 186px;
+    margin-top: 187px;
   }
-  .bastille-entrees-container:active .bastille-entrees-name {
+  .entrees-resturant-container:active .entrees-resturant-name {
     width: 70%;
     -webkit-transition: width 350ms ease-in;
     transition: width 350ms ease-in;
   }
-  .bastille-entrees-container:active .fa-check-circle {
+  .entrees-resturant-name:active .fa-check-circle {
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
     -webkit-transition: -webkit-transform 750ms ease-in;
